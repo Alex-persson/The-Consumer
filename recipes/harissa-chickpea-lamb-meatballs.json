@@ -1,0 +1,31 @@
+{
+    "id": "harissa-chickpea-lamb-meatballs",
+    "name": "Harissa Lamb Meatballs with Chickpeas",
+    "image": "images/recipes/harissa-chickpea-lamb-meatballs.jpg",
+    "tags": ["main","middle-eastern","lactose-free","lamb","meal-prep", "healthy"],
+    "author": "Ben Lippett, Mob",
+    "edited": true,
+    "prepTime": "10m",
+    "cookTime": "30m",
+    "servings": 4,
+    "ingredients": [
+        "200g spaghetti",
+        "100g minced beef",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "400g canned tomatoes",
+        "2 tbsp olive oil",
+        "Salt and pepper to taste"
+    ],
+    "method": [
+        "Cook the spaghetti according to the package instructions.",
+        "Heat the olive oil in a pan, add the chopped onion and garlic, and sauté until golden.",
+        "Add the minced beef and cook until browned.",
+        "Pour in the canned tomatoes and simmer for 15 minutes.",
+        "Season with salt and pepper.",
+        "Serve the sauce over the spaghetti."
+    ],
+    "source": "https://www.mob.co.uk/meal-plans/batch-cook-spicy-lamb-meatball-traybake/spicy-lamb-meatball-traybake",
+    "imageSource": "",
+    "datetime": "2024-08-11 16:48:54.812245"
+}

@@ -1,0 +1,328 @@
+/* General Styles */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-image {
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.header-image h1 {
+    font-size: 2.5em;
+}
+
+.header-image #search-bar {
+    padding: 10px;
+    margin-top: 15px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.recipes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recipes-list .recipe-item {
+    flex: 1 1 calc(50% - 40px);
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.recipes-list .recipe-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#tags {
+    margin-bottom: 20px;
+}
+
+#tags button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#tags button:hover {
+    background-color: #555;
+}
+
+.recipe-tags {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.recipe-tag {
+    background-color: #333;
+    color: #f0f0f0;
+    font-size: 12pt;
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.column-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 0;
+    margin: 0px auto;
+    max-width: 1000px; /* Optional: Adjust based on your design */
+    position: relative; /* Ensure positioning context for the divider */
+}
+
+.column-page::before {
+    content: "";
+    position: absolute;
+    top: 0px; /* Adjust to start below the title */
+    bottom: 0;
+    left: 50%;
+    width: 0.75px;
+    background-color: #9e9e9e;
+    transform: translateX(-50%);
+    z-index: 1; /* Make sure the line is above the content */
+}
+
+#recipe-details h2 {
+    margin-bottom: 30px;
+    padding: 0;
+    font-size: 30pt;
+    font-family: "DM Serif Display", sans-serif;
+    font-style: normal;
+    white-space: normal;
+    text-align: center;
+}
+
+/* Style the recipe image container to maintain a square aspect ratio */
+.recipe-image-container {
+    width: 100%;
+    max-width: 475px; /* Cap the container width to 450px */
+    aspect-ratio: 1; /* Ensure the container remains square */
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px; /* Optional: Adds rounded corners */
+    margin: 0 auto 20px auto; /* Center the container horizontally and add margin below */
+}
+
+/* Style for the image inside the container */
+.recipe-image-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container and maintains aspect ratio */
+    transform: translate(-50%, -50%); /* Centers the image in the container */
+}
+
+
+.column-page .left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-page .left-column p{
+    margin: 0px 0px 15px 0px;
+}
+
+/* Styling for the right column content */
+.column-page .right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-page .right-column p{
+    margin: 0px 0px 15px 0px;
+    font-size: 12pt;
+}
+
+.recipe-date {
+    display: flex;
+    gap: 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+.recipe-date img {
+    max-height: 14pt;
+    margin: 0px -10px 0px 0px;
+}
+
+.recipe-date p {
+    margin: 0;
+}
+
+#recipe-details h3 {
+    font-size: 12pt;
+    margin: 0;
+}
+
+.recipe-times {
+    display: flex;
+    gap: 20px;
+    margin: 12px 0px 0px 0px;
+}
+
+.recipe-times img {
+    max-height: 14pt;
+    margin: 0px -10px 0px 0px;
+}
+
+.recipe-times p {
+    margin: 0;
+    font-size: 12pt;
+}
+
+/* Style for the ingredients table */
+.ingredients-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders don't have gaps */
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    font-size: 12pt; /* Set font size to 12pt */
+    border-top: 1px solid #9e9e9e; /* Black line on top */
+    border-bottom: 1.5px solid #9e9e9e; /* Black line on bottom */
+}
+
+.ingredients-table td {
+    padding: 7px 0px; /* Adjust padding as needed */
+    border-bottom: 0.75px solid #9e9e9e; /* Adds black horizontal lines between rows */
+}
+
+/* Optional: Remove the border from the last row to avoid double bottom border */
+.ingredients-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Style for the ordered list of method steps */
+.method-list {
+    list-style-type: none; /* Remove default numbering */
+    padding: 0; /* Remove default padding */
+    margin: 20px 0px 0px 0px; /* Remove default margin */
+}
+
+.method-list li {
+    position: relative; /* Position relative to place the custom numbering */
+    padding-left: 40px; /* Space for the custom number */
+    margin-bottom: 27px; /* Increase spacing between steps */
+    font-size: 12pt; /* Adjust font size if needed */
+    line-height: 1.5; /* Adjust line height if needed */
+}
+
+/* Custom style for the ordered list numbers */
+.method-list li::before {
+    content: counter(list-item); /* Display the list item number */
+    position: absolute; /* Position the number inside the list item */
+    left: 0; /* Align the number to the left */
+    top: 7pt; /* Center the number vertically */
+    transform: translateY(-50%); /* Adjust vertical alignment */
+    background-color: #fff; /* Black square background */
+    color: #333; /* White font color */
+    font-weight: bold; /* Bold font */
+    padding: 0px; /* Padding inside the number box */
+    border-radius: 5px; /* Rounded corners for the number box */
+    font-size: 15pt; /* Adjust font size for the number */
+    width: 15px; /* Fixed width for the number box */
+    height: 15px; /* Fixed height for the number box to maintain a square */
+    text-align: left; /* Center the number text */
+    line-height: 15px; /* Center text vertically within the box */
+    font-family: "DM Serif Display", sans-serif;
+}
+
+.recipe-source a {
+    color: #333; /* Adjust color as needed */
+    text-decoration: none; /* Underline the link */
+}
+
+.recipe-source em {
+    color: #9e9e9e;
+}
+
+.image-source {
+    color: #9e9e9e;
+}
+
+@media (max-width: 768px) {
+    .recipes-list .recipe-item {
+        flex: 1 1 100%;
+    }
+
+    .header-image {
+        height: 200px;
+    }
+
+    .header-image h1 {
+        font-size: 1.5em;
+    }
+
+    .column-page {
+        grid-template-columns: 1fr; /* Stack columns vertically on small screens */
+    }
+
+    .column-page::before {
+        display: none; /* Hide the vertical line */
+    }
+
+}

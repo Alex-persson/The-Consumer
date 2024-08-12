@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes | Recipe Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="search.html">Extras</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>All Recipes</h2>
+        <input type="text" id="search-bar" placeholder="Search for recipes...">
+        <div id="tags">
+            <button data-tag="Vegetarian">Vegetarian</button>
+            <button data-tag="Vegan">Vegan</button>
+            <button data-tag="Dessert">Dessert</button>
+            <button data-tag="Quick">Quick</button>
+            <button data-tag="Healthy">Healthy</button>
+        </div>
+        <div id="all-recipes" class="recipes-list"></div>
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
