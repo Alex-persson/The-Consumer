@@ -1,5 +1,19 @@
 const recipes = [];
 
+// Initialize an empty array to store tag order
+let tagOrder = [];
+let options = {};
+
+// Function to load options from options.json
+async function loadOptions() {
+    const response = await fetch('options/options.json');
+    const optionsData = await response.json();
+    options = optionsData;
+
+    // Extract all tags from options, ignoring categories
+    tagOrder = Object.values(options.tags).flat(); 
+}
+
 // Function to load all recipe JSON files
 async function loadRecipes() {
     const recipeFiles = [
@@ -12,6 +26,12 @@ async function loadRecipes() {
         const recipe = await response.json();
         recipes.push(recipe);
     }
+}
+
+// Function to load all recipes and options
+async function loadRecipesAndOptions() {
+    await loadOptions();
+    await loadRecipes();
 }
 
 // Function to display recent recipes on the home page
@@ -66,14 +86,6 @@ function formatDate(datetime) {
     return `${day}-${month}-${year}`;
 }
 
-// Function to format tags: replace dashes with spaces and capitalize the first letter
-function formatTag(tag) {
-    return tag
-        .split('-')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(' ');
-}
-
 // Function to parse time strings like "1h 30m" into minutes
 function parseTime(timeStr) {
     const timeParts = timeStr.match(/(\d+)(h|m)/g) || [];
@@ -122,9 +134,115 @@ function formatAuthor(author, edited) {
     return authorHtml;
 }
 
+function formatTagWithColor(tag) {
+    // Tags to exclude
+    const tagsToExclude = ["made-up", "favourite"];
+
+    // Check if the tag should be excluded
+    if (tagsToExclude.includes(tag)) {
+        return ''; // Return empty string to omit the tag
+    }
+
+    // Get the formatted tag from options.tag-formats or capitalize the first letter if not found
+    const formattedTag = options['tag-formats'][tag] || capitalizeFirstLetter(tag);
+
+    // Return HTML for the tag with formatted text and background color
+    return `<span class="recipe-tag">${formattedTag}</span>`;
+}
+
+// Helper function to capitalize the first letter of a string
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+}
+
+function sortTags(tags) {
+    // Sort tags based on the predefined tag order
+    return tags.sort((a, b) => {
+        return (tagOrder.indexOf(a) - tagOrder.indexOf(b));
+    });
+}
+
+function generateNutritionalTable(nutrition) {
+    if (!nutrition || !nutrition.columns || nutrition.columns.length === 0) {
+        return ''; // Return empty string if no nutritional info
+    }
+
+    // Extract columns and rows
+    const columns = nutrition.columns;
+    const rows = Object.keys(nutrition).filter(key => key !== 'columns');
+    
+    // Create table headers
+    const tableHeaders = columns.map(column => `<th>${column}</th>`).join('');
+    
+    // Create table rows
+    const tableRows = rows.map(row => {
+        const isCaloriesRow = row === 'calories';
+        return `<tr>
+            <td class="nutritional-label">${row.charAt(0).toUpperCase() + row.slice(1)}</td>
+            ${columns.map((column, index) => {
+                const value = nutrition[row][index];
+                return `<td>${isCaloriesRow ? value + ' kcal' : value + ' g'}</td>`;
+            }).join('')}
+        </tr>`;
+    }).join('');
+
+    // Generate HTML table
+    const tableHtml = `
+    <div class="expandable">
+        <div class="expandable__title-bar">
+            <span class="expandable__title">
+                Nutrition
+            </span>
+            <ion-icon class="expandable__icon" name="chevron-forward"></ion-icon>
+        </div>
+        <div class="expandable__content-wrapper">
+            <div class="expandable__content">
+                <table class="nutritional-info-table">
+                <colgroup>
+                    <col style="width: 150px;"> <!-- Fixed width for the first column -->
+                    <col style="width: auto;"> <!-- Remaining space for the second column -->
+                </colgroup>
+                <thead>
+                    <tr><th></th>${tableHeaders}</tr>
+                </thead>
+                <tbody>
+                    ${tableRows}
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </div>
+    `;
+    setTimeout(() => {
+        adjustColumnWidths();
+    }, 0);
+    
+    return tableHtml;
+}
+
+function adjustColumnWidths() {
+    const table = document.querySelector('.nutritional-info-table');
+    if (!table) return;
+
+    const headers = table.querySelectorAll('thead th');
+    const cells = table.querySelectorAll('tbody td');
+
+    // Get max width of each header cell
+    const columnWidths = Array.from(headers).map(header => header.scrollWidth);
+
+    // Apply column widths to headers and cells
+    headers.forEach((header, index) => {
+        header.style.maxWidth = `${columnWidths[index] + 10}px`; // Add padding
+    });
+
+    cells.forEach(cell => {
+        cell.style.maxWidth = `${columnWidths[cell.cellIndex] + 10}px`; // Add padding
+    });
+}
+
 // Function to display individual recipe details
 async function displayRecipeDetails() {
-    await loadRecipes();
+    await loadRecipesAndOptions();
     
     const urlParams = new URLSearchParams(window.location.search);
     const recipeId = urlParams.get('id');
@@ -148,12 +266,22 @@ async function displayRecipeDetails() {
     const imageSourceHtml = recipe.imageSource ? `<p><strong>Image Source:</strong><em class="image-source"> ${recipe.imageSource}</em></p>` : '';
 
     // Create HTML for tags
-    const tagsHtml = recipe.tags
-        .map(tag => `<span class="recipe-tag">${formatTag(tag)}</span>`)
+    const sortedTags = sortTags(recipe.tags);
+    const tagsHtml = sortedTags
+        .map(tag => formatTagWithColor(tag))
+        .filter(tagHtml => tagHtml !== '') // Filter out empty strings
         .join(' ');
 
+    // Generate HTML for nutritional info
+    const nutritionalTableHtml = generateNutritionalTable(recipe.nutrition);
+
     recipeDetailsContainer.innerHTML = `
-        <h2>${recipe.name}</h2>
+        <div class="recipe-title-container">
+            <button class="back-button">
+                <ion-icon class="expandable__icon" name="chevron-back"></ion-icon>
+            </button>
+            <h2>${recipe.name}</h2>
+        </div>
         <div class="column-page">
             <div class="left-column">
                 <div class="recipe-image-container">
@@ -189,20 +317,48 @@ async function displayRecipeDetails() {
                 </ol>
             </div>
         </div>
+        ${nutritionalTableHtml}
         ${sourceHtml}
         ${imageSourceHtml}
     `;
 }
 
-// Run the appropriate function based on the current page
-document.addEventListener('DOMContentLoaded', () => {
+
+document.addEventListener('DOMContentLoaded', async () => {
     if (document.body.contains(document.getElementById('recent-recipes'))) {
-        displayRecentRecipes();
+        await displayRecentRecipes();
     }
     if (document.body.contains(document.getElementById('all-recipes'))) {
-        displayAllRecipes();
+        await displayAllRecipes();
     }
     if (document.body.contains(document.getElementById('recipe-details'))) {
-        displayRecipeDetails();
+        await displayRecipeDetails();
+    }
+
+    // Use event delegation to handle clicks on dynamically generated buttons
+    document.body.addEventListener('click',(ev) => {
+        const isExpandableTitle = !!ev.target.closest(".expandable__title-bar")
+        const expandable = ev.target.closest(".expandable");
+        
+        if(!isExpandableTitle) {
+            return;
+        }
+
+        expandable.classList.toggle("expandable--open")
+    });
+
+    const backButton = document.querySelector('.recipe-title-container .back-button');
+
+    if (backButton) {
+        backButton.addEventListener('click', () => {
+            // Check if the referrer is empty
+            if (document.referrer === '') {
+                // Redirect to index.html if no referrer
+                window.location.href = 'index.html';
+            } else {
+                // Otherwise, go back in history
+                window.history.back();
+            }
+        });
     }
 });

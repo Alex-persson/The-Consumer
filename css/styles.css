@@ -57,7 +57,7 @@ nav ul li a {
 }
 
 main {
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     max-width: 1000px;
     margin: 0 auto;
     background-color: #fff;
@@ -113,15 +113,14 @@ h2 {
 }
 
 .recipe-tag {
-    background-color: #333;
     color: #f0f0f0;
+    background: #333;
     font-size: 12pt;
     padding: 5px 10px;
     border-radius: 7px;
     margin-right: 3px;
     margin-bottom: 5px;
     display: inline-block;
-    text-transform: capitalize;
 }
 
 .column-page {
@@ -129,7 +128,7 @@ h2 {
     grid-template-columns: 1fr 1fr;
     column-gap: 50px;
     row-gap: 0;
-    margin: 0px auto;
+    margin: 0px 0px 30px 0px;;
     max-width: 1000px; /* Optional: Adjust based on your design */
     position: relative; /* Ensure positioning context for the divider */
 }
@@ -138,7 +137,7 @@ h2 {
     content: "";
     position: absolute;
     top: 0px; /* Adjust to start below the title */
-    bottom: 0;
+    bottom: 20px;
     left: 50%;
     width: 0.75px;
     background-color: #9e9e9e;
@@ -146,14 +145,49 @@ h2 {
     z-index: 1; /* Make sure the line is above the content */
 }
 
-#recipe-details h2 {
-    margin-bottom: 30px;
-    padding: 0;
+.recipe-title-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: #fff; /* Background color for the header */
+    max-width: 1000px;
+    box-sizing: border-box;
+    margin: 35px 0px;
+}
+
+.recipe-title-container h2 {
+    flex: 1;
     font-size: 30pt;
     font-family: "DM Serif Display", sans-serif;
     font-style: normal;
-    white-space: normal;
     text-align: center;
+    margin: 0;
+    margin-right: 40pt;
+    background-color: #fff;
+}
+
+.recipe-title-container .back-button {
+    width: 40pt;
+    height: 40pt;
+    background-color: #fff;
+    color: #333;
+    margin: 0px 10px 0px -10px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.recipe-title-container .back-button ion-icon {
+    font-size: 40pt; /* Adjust icon size */
+    color: #333;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.recipe-title-container .back-button:hover {
+    transform: scale(1.1);
 }
 
 /* Style the recipe image container to maintain a square aspect ratio */
@@ -304,6 +338,92 @@ h2 {
     color: #9e9e9e;
 }
 
+.expandable {
+    font-size: 10pt;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+.expandable--open .expandable__content-wrapper {
+    grid-template-rows: 1fr;
+    margin: 0px 10px 10px 10px;
+}
+
+.expandable--open .expandable__icon {
+    transform: rotate(90deg);
+}
+
+.expandable--open .expandable__title-bar {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.expandable__title-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    user-select: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.expandable__title {
+    background-color: #333;
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 15pt;
+}
+
+.expandable__icon {
+    transition: transform 0.3s;
+    font-size: 18pt;
+}
+
+.expandable__content {
+    padding: 0;
+    background-color: #333;
+    border-radius: 0px 0px 8px 8px;
+    overflow: hidden;
+}
+
+.expandable__content-wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    margin: 0;
+    padding: 0;
+    transition: grid-template-rows 0.3s ease;
+}
+
+.nutritional-info-table {
+    margin-bottom: 13px;
+    font-size: 10pt;
+    border-collapse: collapse;
+    width: 100%;
+    color: #fff;
+    table-layout: fixed;
+}
+
+.nutritional-info-table th, 
+.nutritional-info-table td {
+    padding: 8px; /* Add padding for spacing */
+    text-align: left; /* Center-align text by default */
+    border-bottom: 0.75px solid #9e9e9e; /* Horizontal lines only */
+}
+
+
+.nutritional-info-table tr:first-child th {
+    border-top: 0.75px solid #9e9e9e; /* Add top border for header row */
+}
+
+.nutritional-info-table colgroup col:first-child {
+    width: 50px; /* Fixed width for the first column */
+}
+
+.nutritional-info-table colgroup col:nth-child(2) {
+    width: auto; /* Remaining width for the second column */
+}
+
 @media (max-width: 768px) {
     .recipes-list .recipe-item {
         flex: 1 1 100%;
@@ -325,4 +445,13 @@ h2 {
         display: none; /* Hide the vertical line */
     }
 
+    .recipe-title-container {
+        display: flex;
+        align-items: center;
+        padding: 10px 0px;
+        background-color: #fff; /* Background color for the header */
+        max-width: 1000px;
+        box-sizing: border-box;
+        margin: 20px 0px;
+    }
 }

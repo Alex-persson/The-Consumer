@@ -25,6 +25,17 @@
         "Season with salt and pepper.",
         "Serve the sauce over the spaghetti."
     ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [598],
+        "carbohydrates": [57],
+        "sugar": [7],
+        "protein": [36],
+        "fat": [25],
+        "saturated fat": [12],
+        "fibre": [2],
+        "salt": [0.88]
+    },
     "source": "https://www.mob.co.uk/meal-plans/batch-cook-spicy-lamb-meatball-traybake/spicy-lamb-meatball-traybake",
     "imageSource": "",
     "datetime": "2024-08-11 16:48:54.812245"
