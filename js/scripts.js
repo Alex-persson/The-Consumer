@@ -18,6 +18,8 @@ async function loadOptions() {
 async function loadRecipes() {
     const recipeFiles = [
         "recipes/gyudon.json",
+        "recipes/pad-kra-pao.json",
+        "recipes/tofu-green-goddess-dressing.json",
         "recipes/harissa-chickpea-lamb-meatballs.json"
     ];
 
@@ -128,7 +130,10 @@ function formatAuthor(author, edited) {
 
     // Check if the recipe was edited and append the Edited label
     if (edited) {
-        authorHtml += ` <span style="font-weight: bold; font-style: italic; color: #33ccee; font-family: 'DM Serif Display'; font-size: 13pt; margin-left: 15px;">*Edited</span>`;
+        authorHtml += ` <span style="font-weight: bold; font-style: italic; background: linear-gradient(-45deg, #007BFF, #00C6FF); /* Pink-Red gradient */
+    -webkit-background-clip: text; /* For WebKit browsers (e.g., Chrome, Safari) */
+    background-clip: text; /* Standard syntax */
+    color: transparent; font-family: 'DM Serif Display'; font-size: 13pt; margin-left: 15px;">*Edited</span>`;
     }
 
     return authorHtml;
@@ -253,6 +258,11 @@ async function displayRecipeDetails() {
         return;
     }
 
+    document.title = `The Consumer - ${recipe.name}`;
+    
+    const h2Element = document.querySelector('.recipe-title-container h2');
+    h2Element.textContent = recipe.name.toUpperCase();
+
     const recipeDetailsContainer = document.getElementById('recipe-details');
 
     // Calculate total time
@@ -276,16 +286,18 @@ async function displayRecipeDetails() {
     const nutritionalTableHtml = generateNutritionalTable(recipe.nutrition);
 
     recipeDetailsContainer.innerHTML = `
-        <div class="recipe-title-container">
-            <button class="back-button">
-                <ion-icon class="expandable__icon" name="chevron-back"></ion-icon>
-            </button>
-            <h2>${recipe.name}</h2>
-        </div>
         <div class="column-page">
             <div class="left-column">
                 <div class="recipe-image-container">
                     <img src="${recipe.image}" alt="${recipe.name} Image">
+                    <div class="favourite-tag" style="${recipe.tags.includes('favourite') ? (recipe.tags.includes('made-up') ? 'left: 210px;' : 'left: 10px;') : 'display: none;'}">
+                        <ion-icon name="heart"></ion-icon>
+                        Favourite
+                    </div>
+                    <div class="made-up-tag" style="${recipe.tags.includes('made-up') ? '' : 'display: none;'}">
+                        <ion-icon name="star"></ion-icon>
+                        Completely Made-Up
+                    </div>
                 </div>
                 <div class="recipe-tags">${tagsHtml}</div>
                 <div class="recipe-times">
@@ -320,6 +332,7 @@ async function displayRecipeDetails() {
         ${nutritionalTableHtml}
         ${sourceHtml}
         ${imageSourceHtml}
+        <p><strong>Referred by:</strong><em class="image-source"> ${recipe.through}</em></p>
     `;
 }
 
@@ -335,18 +348,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         await displayRecipeDetails();
     }
 
-    // Use event delegation to handle clicks on dynamically generated buttons
-    document.body.addEventListener('click',(ev) => {
-        const isExpandableTitle = !!ev.target.closest(".expandable__title-bar")
-        const expandable = ev.target.closest(".expandable");
-        
-        if(!isExpandableTitle) {
-            return;
-        }
-
-        expandable.classList.toggle("expandable--open")
-    });
-
     const backButton = document.querySelector('.recipe-title-container .back-button');
 
     if (backButton) {
@@ -361,4 +362,5 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         });
     }
+
 });

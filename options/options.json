@@ -6,7 +6,7 @@
         "Time": ["rapid", "meal-prep"],
         "Health": ["healthy", "cheat-meal"],
         "Diet": ["keto", "high-protein", "lactose-free", "gluten-free"],
-        "Type": ["salad", "soup", "sandwich", "pasta", "holiday"],
+        "Type": ["salad", "soup", "sandwich", "pasta", "stir-fry", "holiday"],
         "Cuisine": ["english", "japanese", "french", "american", "swedish", "italian", "thai", "indian", "vietnamese", "mediterranean", "middle-eastern", "chinese", "latin-american"],
         "Special": ["made-up", "favourite"]
     },
@@ -20,6 +20,7 @@
         "gluten-free": "Gluten-Free",
         "middle-eastern": "Middle Eastern",
         "latin-american": "Latin American",
-        "made-up": "Completely Made-Up"
+        "made-up": "Completely Made-Up",
+        "stir-fry": "Stir-Fry"
     }
 }

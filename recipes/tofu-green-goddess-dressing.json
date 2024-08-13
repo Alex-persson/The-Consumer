@@ -1,0 +1,43 @@
+{
+    "id": "tofu-green-goddess-dressing",
+    "name": "Tofu Green Goddess Dressing",
+    "image": "images/recipes/tofu-green-goddess-dressing.jpg",
+    "tags": ["sauce","healthy","rapid","veggie","lactose-free","favourite"],
+    "author": "Sylvia Fountaine, Feasting at Home",
+    "edited": false,
+    "prepTime": "10m",
+    "cookTime": "0m",
+    "servings": 12,
+    "ingredients": [
+        "1 pack/300-350g silken tofu",
+        "2 large garlic cloves",
+        "2 tbsp olive oil",
+        "juice of 1/2-1 lemon",
+        "1 tbsp white wine vinegar (sub. sherry/apple cider)",
+        "2 tbsp water",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "2 spring onions",
+        "1 cup fresh herbs (parsley, dill & tarragon is best, can also use basil)",
+        "1 tsp white miso, optional"
+    ],
+    "method": [
+        "Place all ingredients except the herbs and spring onions in a blender. Blend until smooth, adding up to one more tablespoon water, if necessary, to get the blender going.",
+        "Scrape down sides, add the fresh herbs and spring onions blend again. Taste, adjust salt and lemon. Store in a jar in the fridge."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (2 Tbsp)"],
+        "calories": [50],
+        "carbohydrates": [1],
+        "sugar": [0.2],
+        "protein": [1.9],
+        "fat": [4.5],
+        "saturated fat": [0.6],
+        "fibre": [0.2],
+        "salt": [0.2]
+    },
+    "source": "https://www.feastingathome.com/vegan-green-goddess-dressing/",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-13 12:39:30.751678"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "pad-kra-pao",
+    "name": "Pad Kra Pao (Pork & Holy Basil Stir Fry)",
+    "image": "images/recipes/pad-kra-pao.jpg",
+    "tags": ["main","rapid","thai","lactose-free","pork","stir-fry","favourite"],
+    "author": "Vincent Yeow Lim, dimsimlim",
+    "edited": true,
+    "prepTime": "15m",
+    "cookTime": "10m",
+    "servings": 2,
+    "ingredients": [
+        "500g lean 5% pork mince",
+        "10 cloves garlic",
+        "1 onion, chopped",
+        "4-8 Thai chillies",
+        "2 tbsp oyster sauce",
+        "1-2 tbsp fish sauce",
+        "1 tbsp dark soy sauce",
+        "2 tsp MSG",
+        "Handful of Thai basil (approx. 20 leaves)",
+        "Cooked jasmine rice, to serve (2 x 1 cup/160g)",
+        "2 fried eggs, optional",
+        "1 tbsp sugar, optional",
+        "toasted sesame seeds, to garnish"
+    ],
+    "method": [
+        "Using a mortar and pestle, pound the garlic and Thai chilies into a coarse paste. If you don't have a mortar and pestle, you can use a food processor to achieve the same result.",
+        "Heat a wok over medium-high heat and add a bit of vegetable oil.",
+        "Add the chili-garlic paste to the wok and stir-fry for about 30 seconds to 1 minute until fragrant.",
+        "Add the pork mince and stir-fry until it’s cooked through, breaking it up with a spatula as it cooks.",
+        "Stir in the oyster sauce, sugar, fish sauce, dark soy sauce, and MSG seasoning. Mix well and cook for another 2-3 minutes until everything is well combined and the sauce has slightly thickened.",
+        "Add the Thai basil leaves and stir until they are wilted and well incorporated into the dish.",
+        "Serve the Pad Kra Pao over cooked jasmine rice.",
+        "Top each serving with a fried egg and optional garnishes."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (No Optionals)", "Per Serving (No Rice/Optionals)"],
+        "calories": [813, 453],
+        "carbohydrates": [86, 9],
+        "sugar": [4, 4],
+        "protein": [28, 22],
+        "fat": [36, 35],
+        "saturated fat": [18, 18],
+        "fibre": [3, 1],
+        "salt": [0.9, 0.9]
+    },
+    "source": "https://dimsimlim.com/pork-and-holy-basil-stir-fry/",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-12 19:27:09.432229"
+}

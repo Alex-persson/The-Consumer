@@ -3,20 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipes | Recipe Website</title>
+    <title>The Consumer - Search</title>
+    <link rel="icon" href="images/tab-icon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&family=Archivo+Black&family=DM+Serif+Display:ital@0;1&family=Gruppo&family=Noto+Sans+JP:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&family=Archivo+Black&family=DM+Serif+Display:ital@0;1&family=Gruppo&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="recipes.html">Recipes</a></li>
-                <li><a href="search.html">Extras</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
+        <div class="header-title">
+            <div id="left-side">
+                <a href="index.html"><p class="dynamic-text">THE</p></a>
+                <img src="images/signature.png" alt="Signature" class="move-up-on-hover">
+            </div>
+            <a href="index.html"><p class="dynamic-text">CONSUMER</p></a>
+        </div>
+        <div class="header-nav">
+            <p id="date-record">SINCE <span class="red-word">2024</span></p>
+            <nav class="full-nav">
+                <ul>
+                    <li><a href="index.html"><p>HOME</p></a></li>
+                    <li><a href="search.html"><p>RECIPES</p></a></li>
+                    <li><a href="recommendations.html"><p>RECOMMENDATIONS</p></a></li>
+                    <li><a href="mealplans.html"><p>MEAL PLANS</p></a></li>
+                    <li><a href="about.html"><p>ABOUT</p></a></li>
+                </ul>
+            </nav>
+            <nav class="small-nav">
+                <ul>
+                    <li><a href="index.html"><p>HOME</p></a></li>
+                    <li><a href="search.html"><p>RECIPES</p></a></li>
+                    <li><a href="recommendations.html"><p>RECOMMENDATIONS</p></a></li>
+                </ul>
+                <ul>
+                    <li><a href="mealplans.html"><p>MEAL PLANS</p></a></li>
+                    <li><a href="about.html"><p>ABOUT</p></a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <main>
         <h2>All Recipes</h2>
         <input type="text" id="search-bar" placeholder="Search for recipes...">
@@ -29,6 +61,7 @@
         </div>
         <div id="all-recipes" class="recipes-list"></div>
     </main>
+    <script src="js/header.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
