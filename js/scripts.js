@@ -130,10 +130,7 @@ function formatAuthor(author, edited) {
 
     // Check if the recipe was edited and append the Edited label
     if (edited) {
-        authorHtml += ` <span style="font-weight: bold; font-style: italic; background: linear-gradient(-45deg, #007BFF, #00C6FF); /* Pink-Red gradient */
-    -webkit-background-clip: text; /* For WebKit browsers (e.g., Chrome, Safari) */
-    background-clip: text; /* Standard syntax */
-    color: transparent; font-family: 'DM Serif Display'; font-size: 13pt; margin-left: 15px;">*Edited</span>`;
+        authorHtml += ` <span style="color: red; font-family: 'Archivo Black'; font-size: 12pt; margin-left: 15px;">*EDITED</span>`;
     }
 
     return authorHtml;
@@ -152,7 +149,7 @@ function formatTagWithColor(tag) {
     const formattedTag = options['tag-formats'][tag] || capitalizeFirstLetter(tag);
 
     // Return HTML for the tag with formatted text and background color
-    return `<span class="recipe-tag">${formattedTag}</span>`;
+    return `<span class="recipe-tag">${formattedTag.toUpperCase()}</span>`;
 }
 
 // Helper function to capitalize the first letter of a string
@@ -196,7 +193,9 @@ function generateNutritionalTable(nutrition) {
     <div class="expandable">
         <div class="expandable__title-bar">
             <span class="expandable__title">
-                Nutrition
+                <div class="two-bracket-container white-brackets">
+                    <p class="bracket__archivo">Nutrition</p>
+                </div>
             </span>
             <ion-icon class="expandable__icon" name="chevron-forward"></ion-icon>
         </div>
@@ -288,15 +287,19 @@ async function displayRecipeDetails() {
     recipeDetailsContainer.innerHTML = `
         <div class="column-page">
             <div class="left-column">
-                <div class="recipe-image-container">
-                    <img src="${recipe.image}" alt="${recipe.name} Image">
-                    <div class="favourite-tag" style="${recipe.tags.includes('favourite') ? (recipe.tags.includes('made-up') ? 'left: 210px;' : 'left: 10px;') : 'display: none;'}">
-                        <ion-icon name="heart"></ion-icon>
-                        Favourite
-                    </div>
-                    <div class="made-up-tag" style="${recipe.tags.includes('made-up') ? '' : 'display: none;'}">
-                        <ion-icon name="star"></ion-icon>
-                        Completely Made-Up
+                <div class="four-bracket-container">
+                    <div class="bracket-top-right"></div>
+                    <div class="bracket-bottom-left"></div>
+                    <div class="recipe-image-container">
+                        <img src="${recipe.image}" alt="${recipe.name} Image">
+                        <div class="favourite-tag" style="${recipe.tags.includes('favourite') ? (recipe.tags.includes('made-up') ? 'left: 130px;' : 'left: 10px;') : 'display: none;'}">
+                            <ion-icon name="heart"></ion-icon>
+                            FAVOURITE
+                        </div>
+                        <div class="made-up-tag" style="${recipe.tags.includes('made-up') ? '' : 'display: none;'}">
+                            <ion-icon name="star"></ion-icon>
+                            INVENTED
+                        </div>
                     </div>
                 </div>
                 <div class="recipe-tags">${tagsHtml}</div>
@@ -313,7 +316,7 @@ async function displayRecipeDetails() {
                 </div>
             </div>
             <div class="right-column">
-                <p><strong>Servings:</strong> ${recipe.servings}</p>
+                <p><strong>SERVINGS:</strong> ${recipe.servings}</p>
                 <table class="ingredients-table">
                     ${recipe.ingredients.map(ingredient => `
                     <tr>
@@ -363,4 +366,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     }
 
+});
+
+document.querySelector('.hover-highlight').addEventListener('mouseover', function() {
+    const img = document.getElementById('hover-image');
+    const originalSrc = img.src;
+    img.dataset.originalSrc = originalSrc; // Save the original src
+    const extensionIndex = originalSrc.lastIndexOf('.');
+    const highlightedSrc = originalSrc.slice(0, extensionIndex) + '-highlighted' + originalSrc.slice(extensionIndex);
+    img.src = highlightedSrc;
+});
+
+document.querySelector('.hover-highlight').addEventListener('mouseout', function() {
+    const img = document.getElementById('hover-image');
+    img.src = img.dataset.originalSrc; // Restore the original src
 });

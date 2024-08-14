@@ -22,8 +22,20 @@ header {
     align-items: flex-end;
     justify-content: flex-start;
     background-color: black;
-    gap: 15px;
+    gap: 5px;
     margin: 0;
+}
+
+.header-title #left-side .two-bracket-container {
+    margin-bottom: 0.2em;
+}
+
+.two-bracket-container .bracket__bomber-balloon {
+    font-family: "Bomber Balloon Regular", sans-serif;
+    font-size: clamp(17pt, 2.5vw, 22pt);
+    color: #C1C1BD;
+    line-height: 1;
+    margin: -0.18em 0;
 }
 
 .header-title #left-side img {

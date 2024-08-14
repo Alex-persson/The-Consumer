@@ -4,7 +4,7 @@
         "Food": ["beef", "chicken", "pork", "lamb", "turkey", "seafood", "veggie"],
         "Price": ["cheap-and-cheerful", "fancy-stuff"], 
         "Time": ["rapid", "meal-prep"],
-        "Health": ["healthy", "cheat-meal"],
+        "Health": ["healthy", "cheat-meal", "gym-food"],
         "Diet": ["keto", "high-protein", "lactose-free", "gluten-free"],
         "Type": ["salad", "soup", "sandwich", "pasta", "stir-fry", "holiday"],
         "Cuisine": ["english", "japanese", "french", "american", "swedish", "italian", "thai", "indian", "vietnamese", "mediterranean", "middle-eastern", "chinese", "latin-american"],
@@ -21,6 +21,7 @@
         "middle-eastern": "Middle Eastern",
         "latin-american": "Latin American",
         "made-up": "Completely Made-Up",
-        "stir-fry": "Stir-Fry"
+        "stir-fry": "Stir-Fry",
+        "gym-food": "Gym Food"
     }
 }
