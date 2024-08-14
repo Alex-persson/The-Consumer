@@ -1,0 +1,38 @@
+
+.sticky-footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+    background-color: black; /* Background color of the footer */
+    overflow:hidden; /* Ensure no content overflow */
+    position: relative;
+    font-family: "Archivo Black", sans-serif;
+    margin-top: 30px;
+    margin: 0;
+}
+
+.brick-line {
+    white-space: nowrap;
+    font-size: clamp(22pt,4vw, 40pt);
+    color: #333; /* Text color */
+    margin: 50px 0 -0.25em 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.brick-sub-line {
+    white-space: nowrap;
+    font-size: 11.5pt;
+    color: red; /* Text color */
+    margin: 0 0 60px 0;
+    position: relative;
+    overflow: hidden;
+    font-family: "Source Code Pro", sans-serif;
+}

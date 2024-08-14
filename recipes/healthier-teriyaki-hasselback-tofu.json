@@ -1,0 +1,45 @@
+{
+    "id": "healthier-teriyaki-hasselback-tofu",
+    "name": "Healthier Teriyaki Hasselback Tofu",
+    "image": "images/recipes/healthier-teriyaki-hasselback-tofu.jpg",
+    "tags": ["main","japanese","lactose-free","veggie","made-up","cheap-and-cheerful"],
+    "author": "Alex Persson",
+    "edited": false,
+    "prepTime": "30m",
+    "cookTime": "30m",
+    "servings": "1-2",
+    "ingredients": [
+        "1 block (approx. 300g) extra firm tofu",
+        "1 tsp cornstarch",
+        "1.5 tbsp low sodium soy sauce",
+        "1 tbsp honey",
+        "1 garlic cloves, minced",
+        "1 tsp ginger, freshly grated <strong>or</strong> 0.5 tsp ground ginger",
+        "1 tsp toasted sesame oil",
+        "toasted sesame seeds, to garnish",
+        "1 spring onion, sliced, to garnish"
+    ],
+    "method": [
+        "Place block of tofu between two layers of kitchen roll. Weight down with a heavy pan/object to press the tofu for at least 30 mins. Preheat oven to 200°C fan.",
+        "Meanwhile mix together the cornstarch, soy sauce, honey, sesame oil, garlic and ginger to make your sauce.",
+        "Once the tofu has been pressed it's time to prepare it. Place two chopsticks either side of your tofu and cut 3-4mm grooves into the block, using the chopsticks to stop you cutting through. If you want to make slightly smaller portions slice the block into two thinner steaks first. <strong>Note:</strong> you may need to increase the quantity of sauce to glaze two steaks properly.",
+        "Use half the sauce to coat the hasselback tofu steak, making sure to brush it into the slots. Reserve the other half. Then put into the oven for 30 mins.",
+        "Halfway through cooking brush the steak with more of the sauce.",
+        "After cooking brush the steak again with the remaining sauce. Serve with rice and garnish with sesame seeds and spring onion."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (Made as 1 serving)"],
+        "calories": [434],
+        "carbohydrates": [31],
+        "sugar": [17],
+        "protein": [30],
+        "fat": [21],
+        "saturated fat": [2.7],
+        "fibre": [3.9],
+        "salt": [0.78]
+    },
+    "source": "",
+    "imageSource": "https://www.tiktok.com/@sovegan/video/7387845925512711457",
+    "through": "Alex Persson",
+    "datetime": "2024-08-14 16:46:54.132178"
+}

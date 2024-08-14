@@ -20,7 +20,8 @@ async function loadRecipes() {
         "recipes/gyudon.json",
         "recipes/pad-kra-pao.json",
         "recipes/tofu-green-goddess-dressing.json",
-        "recipes/harissa-chickpea-lamb-meatballs.json"
+        "recipes/harissa-chickpea-lamb-meatballs.json",
+        "recipes/healthier-teriyaki-hasselback-tofu.json"
     ];
 
     for (const file of recipeFiles) {
@@ -370,14 +371,18 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 document.querySelector('.hover-highlight').addEventListener('mouseover', function() {
     const img = document.getElementById('hover-image');
-    const originalSrc = img.src;
-    img.dataset.originalSrc = originalSrc; // Save the original src
-    const extensionIndex = originalSrc.lastIndexOf('.');
-    const highlightedSrc = originalSrc.slice(0, extensionIndex) + '-highlighted' + originalSrc.slice(extensionIndex);
-    img.src = highlightedSrc;
+    if (img) {
+        const originalSrc = img.src;
+        img.dataset.originalSrc = originalSrc; // Save the original src
+        const extensionIndex = originalSrc.lastIndexOf('.');
+        const highlightedSrc = originalSrc.slice(0, extensionIndex) + '-highlighted' + originalSrc.slice(extensionIndex);
+        img.src = highlightedSrc;
+    }
 });
 
 document.querySelector('.hover-highlight').addEventListener('mouseout', function() {
     const img = document.getElementById('hover-image');
-    img.src = img.dataset.originalSrc; // Restore the original src
+    if (img) {
+        img.src = img.dataset.originalSrc; // Restore the original src
+    }
 });

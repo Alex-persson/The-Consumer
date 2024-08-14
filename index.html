@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Consumer</title>
+    <!-- Favicon -->
     <link rel="icon" href="images/tab-icon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&family=Archivo+Black&family=DM+Serif+Display:ital@0;1&family=Gruppo&family=Noto+Sans+JP:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&family=Archivo+Black&family=DM+Serif+Display:ital@0;1&family=Gruppo&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/expandable.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
     <!-- Header -->
@@ -18,7 +23,9 @@
         <div class="header-title">
             <div id="left-side">
                 <a href="index.html"><p class="dynamic-text">THE</p></a>
-                <img src="images/signature.png" alt="Signature" class="move-up-on-hover">
+                <div class="two-bracket-container white-brackets move-up-on-hover">
+                    <p class="bracket__bomber-balloon">By Alex Persson</p>
+                </div>
             </div>
             <a href="index.html"><p class="dynamic-text">CONSUMER</p></a>
         </div>
@@ -47,11 +54,182 @@
         </div>
     </header>
 
-    <main>
-        <h2>Most Recent Recipes</h2>
-        <div id="recent-recipes" class="recipes-list"></div>
-    </main>
+    <div class="sticky-footer-wrapper">
+        <main>
+            <div class="banner">
+                <p class="gallery-label">GALLERY</p>
+                <div class="gallery-title">
+                    <p class="gallery-title__headline">A PERSONAL RECIPE BOOK</p>
+                    <p class="gallery-title__subtext">
+                        & A LITTLE MORE<br>
+                        NO ADS<br>
+                        NO LIFE STORIES<br>
+                        ALL CREDITS + LINKS GIVEN
+                    </p>
+                </div>
+                <div class="recipe-gallery">
+                    <div class="recipe-gallery__item recipe-gallery__item1 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        <div class="recipe-gallery__item-frame">
+                            <p>IMG1</p>
+                            <div class="recipe-gallery__image-container">
+                                <img src="images/recipes/gyudon.jpg" alt="Gyudon Recipe">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item2 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        <div class="recipe-gallery__item-frame">
+                            <p>IMG2</p>
+                            <div class="recipe-gallery__image-container">
+                                <img src="images/recipes/harissa-chickpea-lamb-meatballs.jpg" alt="Lamb Meatballs Recipe">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item3 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        <div class="recipe-gallery__item-frame">
+                            <p>IMG3</p>
+                            <div class="recipe-gallery__image-container">
+                                <img src="images/recipes/baked-cod.jpg" alt="Bakd Cod Recipe">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item4 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        <div class="recipe-gallery__item-frame">
+                            <p>IMG4</p>
+                            <div class="recipe-gallery__image-container">
+                                <img src="images/recipes/crunchy-quinoa-chicken-salad.jpg" alt="Bakd Cod Recipe">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item5 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        <div class="recipe-gallery__item-frame">
+                            <p>IMG5</p>
+                            <div class="recipe-gallery__image-container">
+                                <img src="images/recipes/pad-kra-pao.jpg" alt="Bakd Cod Recipe">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item6 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        <div class="recipe-gallery__item-frame">
+                            <p>IMG6</p>
+                            <div class="recipe-gallery__image-container">
+                                <img src="images/recipes/crunchy-quinoa-chicken-salad.jpg" alt="Bakd Cod Recipe">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item7 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item8 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item9 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item10 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item11 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item12 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item13 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item14 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item15 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item16 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item17 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item18 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item19 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item20 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item21 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item22 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item23 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                    <div class="recipe-gallery__item recipe-gallery__item24 four-bracket-container">
+                        <div class="bracket-top-right"></div>
+                        <div class="bracket-bottom-left"></div>
+                        IMG1
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <!-- The lines will be inserted here by JavaScript -->
+        </footer>
+    </div>
+
     <script src="js/scripts.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
 </body>
 </html>

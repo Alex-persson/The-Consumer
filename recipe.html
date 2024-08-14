@@ -12,9 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&family=Archivo+Black&family=DM+Serif+Display:ital@0;1&family=Gruppo&family=Noto+Sans+JP:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton+SC&family=Archivo+Black&family=DM+Serif+Display:ital@0;1&family=Gruppo&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
     <link rel="stylesheet" href="css/expandable.css">
     <link rel="stylesheet" href="css/recipe-page.css">
-    <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
 </head>
 <body>
     <!-- Header -->
@@ -61,14 +62,24 @@
             <h2></h2>
         </div>
     </div>
-    <main>
-        <article id="recipe-details">
-            <!-- Recipe details will be loaded here dynamically -->
-        </article>
-    </main>
+
+    <div class="sticky-footer-wrapper">
+        <main>
+            <article id="recipe-details">
+                <!-- Recipe details will be loaded here dynamically -->
+            </article>
+        </main>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <!-- The lines will be inserted here by JavaScript -->
+        </footer>
+    </div>
+
     <script src="js/scripts.js"></script>
     <script src="js/expandable.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
