@@ -143,6 +143,36 @@ body {
     opacity: 0.8; /* Slight fade effect for smooth transition */
 }
 
+.small-favourite-tag {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background: linear-gradient(to right, #ff5d73, #e40000);
+    color: white;
+    font-size: 15pt;
+    padding: 5px;
+    aspect-ratio: 1;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.small-made-up-tag {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background: linear-gradient(to right, #67abff, #007BFF);
+    color: white;
+    font-size: 15pt;
+    padding: 5px;
+    aspect-ratio: 1;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .recipes-list .recipe-item {
         flex: 1 1 100%;

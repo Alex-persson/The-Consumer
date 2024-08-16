@@ -21,7 +21,8 @@ async function loadRecipes() {
         "recipes/pad-kra-pao.json",
         "recipes/tofu-green-goddess-dressing.json",
         "recipes/harissa-chickpea-lamb-meatballs.json",
-        "recipes/healthier-teriyaki-hasselback-tofu.json"
+        "recipes/healthier-teriyaki-hasselback-tofu.json",
+        "recipes/thai-green-curry.json"
     ];
 
     for (const file of recipeFiles) {
@@ -47,18 +48,30 @@ async function displayRecentRecipes() {
     // Take the first 5 recipes from the sorted array
     const recentRecipes = sortedRecipes.slice(0, 5);
     
-    const recentRecipesContainer = document.getElementById('recent-recipes');
+    const gridItems = document.querySelectorAll('.recent-recipes__grid-item');
 
-    recentRecipes.forEach(recipe => {
-        const recipeElement = document.createElement('div');
-        recipeElement.classList.add('recipe-item');
-        recipeElement.innerHTML = `
-            <a href="recipe.html?id=${recipe.id}">
-                <img src="${recipe.image}" alt="${recipe.name}">
-                <h3>${recipe.name}</h3>
-            </a>
-        `;
-        recentRecipesContainer.appendChild(recipeElement);
+    recentRecipes.forEach((recipe, index) => {
+        const formattedDate = formatDate(recipe.datetime);
+        const prepTimeMinutes = parseTime(recipe.prepTime);
+        const cookTimeMinutes = parseTime(recipe.cookTime);
+        const totalTime = formatTime(prepTimeMinutes + cookTimeMinutes);
+        const gridItem = gridItems[index];
+
+        const favouriteTag = `<div class="small-favourite-tag" style="${recipe.tags.includes('favourite') ? (recipe.tags.includes('made-up') ? 'right: 50px;' : 'right: 10px;') : 'display: none;'}">
+                                <ion-icon name="heart"></ion-icon>
+                            </div>`;
+        const madeUpTag = `<div class="small-made-up-tag" style="${recipe.tags.includes('made-up') ? '' : 'display: none;'}">
+                                <ion-icon name="star"></ion-icon>
+                            </div>`;
+
+        gridItem.href = `recipe.html?id=${recipe.id}`;
+
+        gridItem.querySelector('.recent-recipes__subtext').innerText = formattedDate;
+        gridItem.querySelector('.recent-recipes__title').innerText = recipe.name;
+        gridItem.querySelectorAll('.recent-recipes__subtext')[1].innerText = totalTime;
+        gridItem.querySelector('.recent-recipes__image-container img').src = recipe.image;
+        gridItem.querySelector('.recent-recipes__image-container img').alt = `${recipe.name}`;
+        gridItem.querySelector('.recent-recipes__image-container').innerHTML += favouriteTag + madeUpTag;
     });
 }
 
@@ -86,7 +99,7 @@ function formatDate(datetime) {
     const day = String(date.getDate()).padStart(2, '0');
     const month = String(date.getMonth() + 1).padStart(2, '0');
     const year = date.getFullYear();
-    return `${day}-${month}-${year}`;
+    return `${day}/${month}/${year}`;
 }
 
 // Function to parse time strings like "1h 30m" into minutes
@@ -342,7 +355,7 @@ async function displayRecipeDetails() {
 
 
 document.addEventListener('DOMContentLoaded', async () => {
-    if (document.body.contains(document.getElementById('recent-recipes'))) {
+    if (document.contains(document.getElementById('recent-recipes'))) {
         await displayRecentRecipes();
     }
     if (document.body.contains(document.getElementById('all-recipes'))) {
