@@ -1,0 +1,45 @@
+{
+    "id": "satay-chicken-rice-bowl",
+    "name": "Satay Chicken Rice Bowl",
+    "image": "images/recipes/satay-chicken-rice-bowl.jpg",
+    "tags": ["main","chicken","high-protein","healthy","meal-prep","lactose-free","gym-food","thai","cheap-and-cheerful","favourite"],
+    "author": "Sophie Godwin, Mob",
+    "edited": false,
+    "prepTime": "5m",
+    "cookTime": "15m",
+    "servings": 4,
+    "ingredients": [
+        "650g chicken breast",
+        "2 limes",
+        "4 tbsp peanut butter",
+        "2 tbsp soy sauce",
+        "50g creamed coconut",
+        "2 tsp chilli flakes",
+        "250g edamame",
+        "200g mange tout",
+        "500g cooked brown rice (1 cup uncooked)",
+        "25g coriander, optional"
+    ],
+    "method": [
+        "Get a large frying pan over a high heat. While it is getting hot, season the mini chicken fillets lightly with salt and black pepper. Drizzle some olive oil into the pan. Chuck in the chicken and fry for 5 mins, stirring occasionally, until browned.",
+        "Meanwhile, cut one lime in half and the other into four wedges. Set aside.",
+        "Satay sauce time. Put the peanut butter, soy sauce, creamed coconut and chilli flakes to taste into a bowl. Squeeze in the juice of the lime halves. Measure out 300ml of boiling water from the kettle and pour into the satay mix. Stir with a fork briefly to combine – don’t worry if there are a few lumps of coconut as they will cook out in the pan later.",
+        "Pour the satay sauce over the chicken in the pan and tip in the edamame beans and mangetout. Tip in the packets of rice, stir to break up the grains, then cook for a further 2 minutes to heat the rice through until steaming.",
+        "Pile the satay chicken rice into four bowls and then tear over the coriander. Scatter with extra chilli flakes and serve with the lime wedges and extra soy sauce, if you like."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [672],
+        "carbohydrates": [42],
+        "sugar": [6],
+        "protein": [66],
+        "fat": [24],
+        "saturated fat": [6],
+        "fibre": [12],
+        "salt": [0.68]
+    },
+    "source": "https://www.mob.co.uk/recipes/satay-chicken-rice-bowls",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-19 11:15:52.277633"
+}

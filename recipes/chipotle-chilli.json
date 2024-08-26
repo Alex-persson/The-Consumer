@@ -1,0 +1,50 @@
+{
+    "id": "chipotle-chilli",
+    "name": "Chipotle Chilli",
+    "image": "images/recipes/chipotle-chilli.jpg",
+    "tags": ["main","beef","latin-american","meal-prep","lactose-free"],
+    "author": "Sophie Godwin, Mob",
+    "edited": false,
+    "prepTime": "15m",
+    "cookTime": "1h",
+    "servings": 4,
+    "ingredients": [
+        "1 onion",
+        "4 garlic cloves",
+        "1 red pepper",
+        "1 tbsp cumin seeds",
+        "2 tbsp chipotle paste",
+        "400g tinned plum tomatoes",
+        "2 tbsp tomato puree",
+        "2 tsp dried oregano",
+        "500g lean mince beef",
+        "240g drained cooked kidney beans",
+        "Reserved kidney bean liquid, to serve",
+        "10g dark chocolate, optional",
+        "Olive oil"
+    ],
+    "method": [
+        "Peel the onion. Cut in half then finely chop one of the halves, leaving the other whole. Peel the garlic cloves, leaving them whole. Finely chop the red pepper and set it aside along with the chopped onion.",
+        "Get a large saucepan, or casserole pan that you’ll cook the chilli in, set over a high heat. Once visibly hot, add the halved onion and whole garlic cloves to the dry frying pan. Cook for 3-5 mins, flipping halfway through, until both are becoming nicely charred, then remove the pan from the heat.",
+        "Put the charred garlic and onion into a blender. Add the cumin seeds to the pan and let them toast in the residual heat for a minute or so, tossing them so they don’t burn, then tip them into the blender. Add the chipotle paste, plum tomatoes, tomato purée and dried oregano then blitz until it becomes a smooth sauce. This is the base for your chilli.",
+        "Set the pan back over a high heat. Tip in the mince along with 1 Tbsp olive oil. Season, then fry for 5-8 mins, breaking the mince up with the back of your spoon until evenly crisp and browned. Remove with a slotted spoon into a bowl.",
+        "Turn the heat down to medium, add the chopped onion and pepper along with 1 Tbsp olive oil. Cook, stirring occasionally until soft, around 8-10 mins.",
+        "Add the mince back to the pan, then pour in the chipotle sauce along with the kidney beans and all of their water, then half fill the can with water and add that into the pan, too. Add the dark chocolate, if using.",
+        "Simmer the chilli, stirring occasionally, for 30 mins until the sauce has thickened and is clinging to the meat, then season to taste. Serve with all your favourite accompaniments: rice, coriander, sour cream, smashed avo, lime wedges, tortilla chips, grated cheddar, if you like. Enjoy."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [641],
+        "carbohydrates": [33],
+        "sugar": [9],
+        "protein": [38],
+        "fat": [32],
+        "saturated fat": [11],
+        "fibre": [19],
+        "salt": [0.51]
+    },
+    "source": "https://www.mob.co.uk/recipes/chipotle-chilli-recipe",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-18 21:39:41.268294"
+}

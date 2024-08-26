@@ -1,0 +1,47 @@
+{
+    "id": "bagel-smoked-salmon-quinoa-bowl",
+    "name": "Everything But The Bagel Smoked Salmon Quinoa Bowl",
+    "image": "images/recipes/bagel-smoked-salmon-quinoa-bowl.jpg",
+    "tags": ["lunch","healthy","favourite","seafood","salad"],
+    "author": "Chloe Rene, Mob",
+    "edited": false,
+    "prepTime": "25m",
+    "cookTime": "0m",
+    "servings": 4,
+    "ingredients": [
+        "500g cooked quinoa (200g / 1 cup uncooked)",
+        "20g chives",
+        "25g fresh parsley",
+        "15g fresh dill",
+        "1 cucumber",
+        "1 red onion",
+        "200g smoked salmon (or sub 300g/3 tins drained tuna) ",
+        "2 tbsp toasted sesame seeds",
+        "1 tbsp poppy seeds",
+        "2 lemons",
+        "150g soured cream",
+        "3 tbsp capers"
+    ],
+    "method": [
+        "Thinly slice the chives and parsley, then transfer to a bowl. Set aside.",
+        "Combine the poppy seeds, soured cream, zest of half a lemon and a squeeze of juice in another bowl, to make a dressing. Season with salt and pepper.",
+        "Pick the dill fronds. Chop the cucumber and thinly slice the red onion. Dice or tear the smoked salmon into bite-sized chunks. Add everything to another bowl with the juice of a lemon, then stir the sesame seeds through and add a drizzle of olive oil. Toss together with the capers.",
+        "Reheat the quinoa and toss through the chive and parsley mixture.",
+        "Share the quinoa between plates. Top with the smoked salmon salad and drizzle over the lemon poppy seed dressing."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (Smoked Salmon)","Per Serving (Tuna)"],
+        "calories": [416,444],
+        "carbohydrates": [33, 33],
+        "sugar": [6, 6],
+        "protein": [19, 29],
+        "fat": [22.5, 20.5],
+        "saturated fat": [10, 9.5],
+        "fibre": [7,7],
+        "salt": [0.5, 0.5]
+    },
+    "source": "https://www.mob.co.uk/recipes/everything-but-the-bagel-smoked-salmon-quinoa-bowl",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-18 20:25:26.001334"
+}

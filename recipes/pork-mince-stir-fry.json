@@ -1,0 +1,43 @@
+{
+    "id": "pork-mince-stir-fry",
+    "name": "So Simple Pork Mince Stir Fry",
+    "image": "images/recipes/pork-mince-stir-fry.jpg",
+    "tags": ["main","pork","cheap-and-cheerful","japanese","meal-prep","lactose-free","high-protein","rapid","healthy","gym-food","favourite"],
+    "author": "Adam Bush, Mob",
+    "edited": true,
+    "prepTime": "5m",
+    "cookTime": "10m",
+    "servings": 2,
+    "ingredients": [
+        "500g lean pork mince",
+        "30g (2-inch) fresh ginger",
+        "4 garlic cloves",
+        "6 spring onions",
+        "2 tbsp sesame seeds",
+        "2 tbsp white miso paste",
+        "2 tbsp soy sauce",
+        "50-100ml water",
+        "cooked rice, to serve"
+    ],
+    "method": [
+        "Peel the ginger, then cut into slices, then matchsticks, then finely chop. Finely chop the garlic. Cut three-quarters of the spring onions into 4cm pieces, then very finely slice the remaining spring onions and set aside for later.",
+        "Drizzle a large frying pan or wok with a little vegetable oil and set over a high heat. Add the pork mince to the pan and break up a little with a wooden spoon. Leave to fry for 2 mins, then flip and break up again. Scatter in the sesame seeds and 4cm pieces of spring onion and continue frying the mince for another 2 mins until starting to get nice and crisp. Add in the ginger and garlic and cook for 2 mins until smelling amazing.",
+        "Turn the heat to low and spoon in the miso, soy sauce and water (gradually). Mix really well and cook for 1 min until the mince is glossy and coated in the sauce.",
+        "Serve with rice and something like white cabbage."  
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (No Rice)"],
+        "calories": [433],
+        "carbohydrates": [15.6],
+        "sugar": [2.8],
+        "protein": [59.6],
+        "fat": [15.3],
+        "saturated fat": [4.3],
+        "fibre": [4.6],
+        "salt": [1.47]
+    },
+    "source": "https://www.mob.co.uk/recipes/pork-mince-stir-fry",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-19 20:37:45.125093"
+}

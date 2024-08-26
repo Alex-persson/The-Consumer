@@ -1,0 +1,49 @@
+{
+    "id": "coconut-poached-fish",
+    "name": "Coconut-Poached Fish with Bok Choy",
+    "image": "images/recipes/coconut-poached-fish.jpg",
+    "tags": ["main","seafood","fancy-stuff","lactose-free","thai"],
+    "author": "Colu Henry, NYT Cooking",
+    "edited": false,
+    "prepTime": "15m",
+    "cookTime": "15m",
+    "servings": 4,
+    "ingredients": [
+        "4 (~170g) cod fillets or other flaky white fish",
+        "Kosher salt",
+        "2 tbsp canola or vegetable oil",
+        "1 large shallot, thinly sliced",
+        "2 garlic cloves, thinly sliced",
+        "1 (2-inch) piece ginger, peeled and cut into thin matchsticks",
+        "1 fresh Thai or Serrano chile, thinly sliced",
+        "2 (2x400g) cans coconut milk",
+        "1.5 tsp fish sauce",
+        "1 tsp light brown sugar",
+        "300g baby bok choy, ends trimmed and stalks separated",
+        "lime wedges, to serve",
+        "handful of coriander, chopped, to garnish",
+        "1 spring onions, sliced, to garnish",
+        "flaky salt, to garnish"
+    ],
+    "method": [
+        "Season fish well with salt. In a large sauté pan, heat oil over medium heat. Add shallot, garlic, ginger and chile, and cook, stirring often until they become translucent, about 2 minutes. Season with salt.",
+        "Add coconut milk, fish sauce and brown sugar, and whisk together until combined and sugar dissolves. Bring mixture to a gentle simmer. Add cod fillets and turn the heat down to low. Cover and cook until cod is just cooked through and opaque, about 6 to 8 minutes. Carefully remove the fish and plate in bowls.",
+        "Add bok choy to the coconut milk broth and turn heat to medium-low. Cook bok choy until leaves are wilted and stems are tender, about 1 to 2 minutes.",
+        "Divide bok choy evenly alongside the fish and ladle the coconut milk broth over each portion. Top with cilantro, scallions and a good squeeze of lime, and serve with remaining wedges on the side. Garnish with flaky salt, if desired."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [645],
+        "carbohydrates": [15],
+        "sugar": [4],
+        "protein": [40],
+        "fat": [51],
+        "saturated fat": [38],
+        "fibre": [2],
+        "salt": [1.08]
+    },
+    "source": "https://cooking.nytimes.com/recipes/1019384-coconut-poached-fish-with-bok-choy",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-18 14:06:17.495819"
+}

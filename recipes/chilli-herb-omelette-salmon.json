@@ -1,0 +1,43 @@
+{
+    "id": "chilli-herb-omelette-salmon",
+    "name": "Chilli Herb Omelette With Salmon & Crème Fraîche",
+    "image": "images/recipes/chilli-herb-omelette-salmon.jpg",
+    "tags": ["lunch","high-protein","healthy","rapid","keto","french"],
+    "author": "Mob",
+    "edited": false,
+    "prepTime": "5m",
+    "cookTime": "10m",
+    "servings": 1,
+    "ingredients": [
+        "15g chives",
+        "15g dill",
+        "3 large eggs",
+        "1 pinch chilli flakes",
+        "1 tbsp unsalted butter",
+        "3 slices smoked salmon",
+        "1 lemon",
+        "1 tbsp crème fraîche, optional"
+    ],
+    "method": [
+        "Begin by finely chopping the herbs. Add these to a bowl along with a good pinch of chilli flakes. Crack in the eggs and whisk everything together.",
+        "Set a non-stick pan over a medium heat and add the butter. When the butter begins to foam pour in the eggs and begin to cook.",
+        "With a spatula, gently move the cooked edges of the omelette towards the middle of the pan, then tilt the pan so the uncooked egg takes its place.",
+        "When the omelette is almost cooked, season with salt and pepper and fold in half.",
+        "Transfer to a plate then top with a few slices of smoked salmon, the crème fraîche and a wedge of lemon. Season with black pepper and garnish with some herbs."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [355],
+        "carbohydrates": [8],
+        "sugar": [3],
+        "protein": [34],
+        "fat": [20],
+        "saturated fat": [7],
+        "fibre": [3],
+        "salt": [0.77]
+    },
+    "source": "https://www.mob.co.uk/recipes/chilli-herb-omelette-with-salmon-cr%C3%A8me-fra%C3%AEche",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-19 10:58:13.243905"
+}

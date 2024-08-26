@@ -1,0 +1,45 @@
+{
+    "id": "honey-harissa-carrots-chickpeas",
+    "name": "Honey Harissa Carrots and Chickpeas",
+    "image": "images/recipes/honey-harissa-carrots-chickpeas.jpg",
+    "tags": ["side","veggie"],
+    "author": "Sophie Wyburd, Mob",
+    "edited": true,
+    "prepTime": "15m",
+    "cookTime": "45m",
+    "servings": 4,
+    "ingredients": [
+        "500g carrots (preferably with tops)",
+        "1/2 tsp cinnamon",
+        "1 lemon",
+        "240g (1 can) drained cooked chickpeas",
+        "2 tbsp honey",
+        "2 tbsp rose harissa paste",
+        "300g 0% Greek yoghurt, optional",
+        "Drizzle of olive oil, optional"
+    ],
+    "method": [
+        "Heat your oven to 190°C.",
+        "Trim the green tops off your carrots, then toss them into a roasting tray. Drizzle with olive oil, cinnamon and a pinch of salt and pepper. Roast for 30 mins.",
+        "Finely chop a handful of your carrot tops until you have about 2 tbsp worth. Add them to a pestle and mortar with the juice of a lemon and a drizzle of olive oil, then bash until you have a chunky green sauce.",
+        "Drain your chickpeas and toss them onto your carrot roasting tray. Return them to the oven for 15 mins until they are crisp.",
+        "Mix your honey and harissa paste together in a bowl.",
+        "Pour your honey and harissa paste onto your carrots and chickpeas and give them a toss until they are all coated.",
+        "<strong>(Optional)</strong> Spoon greek yoghurt over a plate and top with chickpeas and carrots. Serve with bread for dipping."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (incl. yoghurt)"],
+        "calories": [355],
+        "carbohydrates": [50.2],
+        "sugar": [18.9],
+        "protein": [7.2],
+        "fat": [17.1],
+        "saturated fat": [2.2],
+        "fibre": [15],
+        "salt": [0.21]
+    },
+    "source": "https://www.mob.co.uk/recipes/honey-harissa-carrots-with-whipped-feta",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-18 19:40:38.655829"
+}

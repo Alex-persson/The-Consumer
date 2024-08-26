@@ -91,6 +91,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
+    text-overflow: ellipsis;
 }
 
 .recent-recipes__text-frame p {
@@ -99,6 +101,14 @@
     font-size: clamp(9pt, 1.1vw, 20pt);
     color: black;
     background-color: transparent;
+    text-overflow: ellipsis;
+}
+
+.recent-recipes__text-frame .recent-recipes__title {
+    flex: 1;
+    background-color: transparent;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .recent-recipes__grid-item1 .recent-recipes__text-frame p {

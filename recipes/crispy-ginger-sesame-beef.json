@@ -1,0 +1,51 @@
+{
+    "id": "crispy-ginger-sesame-beef",
+    "name": "Crispy Ginger Sesame Beef",
+    "image": "images/recipes/crispy-ginger-sesame-beef.jpg",
+    "tags": ["main","beef","stir-fry","high-protein","chinese","lactose-free","favourite"],
+    "author": "Mob",
+    "edited": false,
+    "prepTime": "15m",
+    "cookTime": "15m",
+    "servings": 4,
+    "ingredients": [
+        "600g beef (any cut really)",
+        "3 tbsp cornflour",
+        "300g tenderstem broccoli",
+        "6 spring onions",
+        "50g (4-5 inch) ginger",
+        "3 garlic cloves",
+        "2 tbsp sesame oil",
+        "1 tbsp chilli oil",
+        "1 tbsp honey",
+        "1 tbsp rice wine vinegar",
+        "6 tbsp soy sauce",
+        "400g (2 cups) cooked rice",
+        "Handful of sesame seeds, to garnish"
+    ],
+    "method": [
+        "Cut your beef into strips.",
+        "Add your cornflour into a bowl and dip in the beef strips. Make sure each strip is evenly coated.",
+        "Add a very big glug of vegetable oil to a wok. Once the oil is hot, throw in your beef. Fry the beef in batches so they have space to fry. Remove when nice, brown and crispy (about 3-4 minutes). Set the beef aside.",
+        "Pour away the leftover oil and clean your wok. Heat a small splash of vegetable oil in the wok and add your broccoli. Fry on a high heat so that it starts to char.",
+        "Finely chop your spring onions and slice your ginger and garlic. Once the broccoli is charred and al dente stir through the chopped spring onions and ginger. Fry for a minute then add in the garlic.",
+        "Add in the sesame oil and chilli oil and toss together. Then add in the honey, rice vinegar and soy sauce.",
+        "Time to reintroduce your beef. Chuck the beef strips into the pan and add 30ml of water. On a medium heat, keep tossing until your sauce comes together, thickens and turns nice and sticky.",
+        "Serve the rice into 4 bowls. Spoon over your gingery beef strips and scatter over the sesame seeds. Dig in!"
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [787],
+        "carbohydrates": [98],
+        "sugar": [9],
+        "protein": [45],
+        "fat": [23],
+        "saturated fat": [5],
+        "fibre": [4],
+        "salt": [1.47]
+    },
+    "source": "https://www.mob.co.uk/recipes/crispy-ginger-sesame-beef",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-19 09:37:41.554300"
+}

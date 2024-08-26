@@ -1,0 +1,43 @@
+{
+    "id": "basil-chicken-skewers",
+    "name": "Basil Chicken Skewers",
+    "image": "images/recipes/basil-chicken-skewers.jpg",
+    "tags": ["main","chicken","thai","cheap-and-cheerful","made-up","high-protein","favourite","healthy","lactose-free","meal-prep","gym-food"],
+    "author": "Alex Persson",
+    "edited": false,
+    "prepTime": "2h",
+    "cookTime": "10m",
+    "servings": 2,
+    "ingredients": [
+        "450g skinless boneless chicken thighs",
+        "2 tbsp soy sauce",
+        "2 tbsp oyster sauce",
+        "0.5 tbsp olive oil",
+        "2 tbsp lime juice",
+        "0.5 tsp chilli flakes",
+        "2 garlic cloves",
+        "15g Thai basil, chopped",
+        "1 tbsp palm sugar, optional"
+    ],
+    "method": [
+        "Soak your skewers in water (this prevents them from burning).",
+        "Slice your chicken into rough 3cm chunks and add all the sauces, a glug of oil and chilli flakes. Grate in the garlic and add chopped basil. Season with salt and leave to marinate in the fridge (at least 2 hours).",
+        "Skewer assembly time – thread 5 chicken pieces onto each skewer.",
+        "On medium heat, grill the skewers on an oiled pan, brush with the reserving marinade and cook until golden and the juices run clear on each side (should take about 12 mins)."  
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (No Palm Sugar)"],
+        "calories": [428],
+        "carbohydrates": [28.7],
+        "sugar": [3.4],
+        "protein": [52.4],
+        "fat": [13.1],
+        "saturated fat": [2.6],
+        "fibre": [2.1],
+        "salt": [0.86]
+    },
+    "source": "",
+    "imageSource": "https://www.mob.co.uk/recipes/basil-chicken-skewers-with-mango-salad",
+    "through": "Alex Persson",
+    "datetime": "2024-08-19 21:01:31.908844"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "peanut-chicken-salad",
+    "name": "Peanut Chicken Salad",
+    "image": "images/recipes/peanut-chicken-salad.jpg",
+    "tags": ["main","chicken","salad","high-protein","healthy","meal-prep","lactose-free","keto"],
+    "author": "Ben Lebus, Mob",
+    "edited": false,
+    "prepTime": "20m",
+    "cookTime": "20m",
+    "servings": 4,
+    "ingredients": [
+        "8 skinless boneless chicken thighs",
+        "1 red chilli",
+        "1 garlic clove",
+        "25g (2-inch) ginger",
+        "2 tbsp honey",
+        "4 tbsp soy sauce",
+        "400ml (1 can) coconut milk",
+        "3 tbsp peanut butter",
+        "1 lime",
+        "1 cucumber",
+        "Handful of peanuts",
+        "Bunch of coriander",
+        "3 romaine lettuces",
+        "2 tsp sugar, optional"
+    ],
+    "method": [
+        "Dice chicken thighs into little chunks. Throw into a bowl. Grate in a red chilli, your clove of garlic and a large knob of ginger. Add your honey, 3 tbsp of soy sauce and half a can of coconut milk.",
+        "Add a splash of olive oil and mix everything together. Cover and leave in the fridge for 10 minutes to marinate.",
+        "Chop your coriander and cucumber into small chunks and add to a big bowl.",
+        "Dressing time. Into a bowl, add the peanut butter, a tbsp of soy sauce, the juice of a lime, coconut milk and sugar. Keep mixing until you have a smooth, perfect-for-pouring consistency.",
+        "Chicken time. Fry your chicken in batches until it's cooked through and sticky - pour all of the marinade juices into the pan while cooking.",
+        "Chop your romaine lettuce into small pieces.",
+        "Assembly time. Place the chicken on top of the salad then your coriander and cucumber alongside an extra red chilli if you like it spicy. Scatter a large handful of chopped peanuts over the top, and then pour your peanut butter dressing over everything. Mix together and enjoy."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [832],
+        "carbohydrates": [26],
+        "sugar": [17],
+        "protein": [66],
+        "fat": [51],
+        "saturated fat": [25],
+        "fibre": [10],
+        "salt": [0.96]
+    },
+    "source": "https://www.mob.co.uk/recipes/peanut-chicken-salad",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-19 10:33:13.003682"
+}

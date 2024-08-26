@@ -1,0 +1,43 @@
+{
+    "id": "five-minute-sesame-garlic-tofu",
+    "name": "5 Minute Sesame Garlic Tofu",
+    "image": "images/recipes/five-minute-sesame-garlic-tofu.jpg",
+    "tags": ["main","veggie","cheap-and-cheerful","rapid","healthy","made-up","lactose-free"],
+    "author": "Alex Persson",
+    "edited": false,
+    "prepTime": "5m",
+    "cookTime": "0m",
+    "servings": 1,
+    "ingredients": [
+        "1 pack (~300g) extra firm tofu",
+        "Veggies; half cucumber, spring onions, mini peppers (whatever you got)",
+        "2 tbsp soy sauce",
+        "1 tbsp toasted sesame oil",
+        "1 tsp rice wine vinegar",
+        "1 tsp honey",
+        "1 tbsp toasted sesame seeds",
+        "3 garlic cloves, minced",
+        "pinch of chilli flakes, optional"
+    ],
+    "method": [
+        "Remove tofu block from packaging and dry properly by lightly pressing.",
+        "Chop veggies and scatter over the top of the tofu on a plate with a raised edege",
+        "Mix together remaining ingredients to make a sauce and drizzle over the tofu and veggies.",
+        "Serve with rice on the side and eat with a spoon!"
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (No Rice)"],
+        "calories": [488],
+        "carbohydrates": [31],
+        "sugar": [17.9],
+        "protein": [29.8],
+        "fat": [30.8],
+        "saturated fat": [5.2],
+        "fibre": [5],
+        "salt": [1.85]
+    },
+    "source": "",
+    "imageSource": "https://www.cookerru.com/silken-tofu/",
+    "through": "Alex Persson",
+    "datetime": "2024-08-25 11:32:47.178097"
+}

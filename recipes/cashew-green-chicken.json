@@ -1,0 +1,49 @@
+{
+    "id": "cashew-green-chicken",
+    "name": "Cashew Green Chicken",
+    "image": "images/recipes/cashew-green-chicken.jpg",
+    "tags": ["main","chicken","healthy","high-protein","indian","lactose-free"],
+    "author": "Ben Lippett, Mob",
+    "edited": false,
+    "prepTime": "10m",
+    "cookTime": "50m",
+    "servings": 4,
+    "ingredients": [
+        "100g cashews",
+        "50g coriander",
+        "10g fresh mint",
+        "2 green chillies",
+        "800ml chicken stock",
+        "8 chicken thighs, skin on bone-in (can sub boneless skinless for a leaner dish and reduce braising time in oven slightly)",
+        "1 red onion",
+        "2 tbsp ginger paste",
+        "1 tbsp coriander seeds",
+        "1 tbsp cumin seeds",
+        "500g cooked rice",
+        "2 limes",
+        "Olive oil, to serve"
+    ],
+    "method": [
+        "Preheat the oven to 220°C.",
+        "Chuck the cashews, coriander, mint, chillies and chicken stock into a blender and whizz until bright green and smooth. Season the chicken thighs with salt and preheat a large frying pan over a medium heat.",
+        "Add the chicken thighs, skin-side down, to the pan and begin to render the fat. Cook for 8-10 mins, barely touching the chicken until the skin is a deep golden brown and starting to become very crispy. Turn them back over and keep going until the skin is like glass.",
+        "Once you’re happy with the skin, remove the chook and add to a baking dish, leaving behind the chicken fat. Finely slice the red onion and tip three-quarters of it into the pan. Add a pinch of salt and cook for 3-4 mins. Now add the ginger paste and spices. Cook for 4-5 mins until fragrant. Now pour in the cashew mixture, and bring to a boil. Pour over the chicken in the roasting dish and slide into the oven for 25-30 mins.",
+        "Heat the rice according to the pack instructions.",
+        "Pull the chicken out of the oven and serve with the rice, remaining onions and fresh lime wedges."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [1031],
+        "carbohydrates": [60],
+        "sugar": [8],
+        "protein": [64],
+        "fat": [53],
+        "saturated fat": [17],
+        "fibre": [9],
+        "salt": [0.31]
+    },
+    "source": "https://www.mob.co.uk/recipes/cashew-green-chicken",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-18 21:17:00.568055"
+}

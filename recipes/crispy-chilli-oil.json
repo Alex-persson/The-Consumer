@@ -1,0 +1,46 @@
+{
+    "id": "crispy-chilli-oil",
+    "name": "Crispy Chilli Oil",
+    "image": "images/recipes/crispy-chilli-oil.jpg",
+    "tags": ["sauce","favourite","chinese","lactose-free","veggie"],
+    "author": "Sophie Wyburd, Mob",
+    "edited": false,
+    "prepTime": "24h",
+    "cookTime": "30m",
+    "servings": 50,
+    "ingredients": [
+        "4 shallots",
+        "1 bulb garlic",
+        "750ml vegetable oil",
+        "100g chilli flakes",
+        "2 tbsp soy sauce",
+        "1 tsp black pepper",
+        "2 tsp szechuan peppercorns",
+        "1 star anise",
+        "1 tbsp MSG",
+        "1 tbsp caster sugar"
+    ],
+    "method": [
+        "Thinly slice your shallots and garlic.",
+        "Pour your vegetable oil into a large pan. Add your shallots, then bring to a gentle simmer. Cook for 15 mins until the shallots are crisping up and just beginning to turn golden. Add your garlic, then simmer for another 5 minutes until your garlic has gone crispy. Don't let anything burn, you want the garlic and the shallots to only just be golden.",
+        "Remove them from the pan of oil and leave to drain and crisp up on a plate lined with kitchen paper for 10 minutes.",
+        "Meanwhile, add your chilli flakes, soy sauce, both types of peppercorns and star anise, MSG and sugar to a large bowl. Pour your oil through a sieve into the chilli bowl and give it a good stir.",
+        "Add your crispy garlic and shallots back into the oil mixture. Leave to infuse for a day before eating.",
+        "Ladle your oil into sterilised jars and use within 1 month."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (1 tbsp)"],
+        "calories": [138.6],
+        "carbohydrates": [1.9],
+        "sugar": [0.85],
+        "protein": [0.48],
+        "fat": [14.5],
+        "saturated fat": [0.96],
+        "fibre": [0.72],
+        "salt": [0.07]
+    },
+    "source": "https://www.mob.co.uk/recipes/crispy-chilli-oil",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-18 19:55:48.434811"
+}

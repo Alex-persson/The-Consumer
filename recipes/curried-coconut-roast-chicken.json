@@ -1,0 +1,43 @@
+{
+    "id": "curried-coconut-roast-chicken",
+    "name": "Slow-Roasted Curried Coconut Chicken",
+    "image": "images/recipes/curried-coconut-roast-chicken.jpg",
+    "tags": ["main","chicken","cheap-and-cheerful","high-protein","lactose-free","keto","thai","meal-prep","favourite"],
+    "author": "Chloe Rene, Mob",
+    "edited": false,
+    "prepTime": "15m",
+    "cookTime": "3h 20m",
+    "servings": 6,
+    "ingredients": [
+        "400ml coconut milk",
+        "2 tbsp Thai yellow curry paste (sub. red)",
+        "3 brown onions",
+        "1 lemongrass stalk",
+        "1 large whole chicken",
+        "1 garlic bulb",
+        "500g cherry tomatoes",
+        "Fish sauce, to serve"
+    ],
+    "method": [
+        "Heat the oven to 150°C. Put the coconut milk and curry paste into a bowl and whisk together. Season with fish sauce and set aside. Peel and wedge the onions.",
+        "Gently bash the lemongrass to release its flavour. Stuff it into the chicken's cavity along with the whole garlic bulb. Season the chicken all over with salt and pepper.",
+        "Transfer the onions to a baking tin, place the chicken on top and pour the coconut milk mixture all over. Once the oven is hot, roast the chicken for 2 hrs 30 mins-3 hrs until cooked through. Rest the bird for 20 mins before carving it, separating the breasts, wings, thighs and drumsticks.",
+        "Meanwhile, prick the tomatoes a few times using the tip of a knife, halving any large ones.",
+        "Add the carved chicken to a Tupperware container, add the onions and garlic bulb to another Tupperware container, and finally add the tomatoes to a Tupperware containers, pouring all of the pan juices over the tomatoes."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [618],
+        "carbohydrates": [13],
+        "sugar": [5],
+        "protein": [41],
+        "fat": [44],
+        "saturated fat": [21],
+        "fibre": [2],
+        "salt": [0.2]
+    },
+    "source": "https://www.mob.co.uk/recipes/slow-roasted-curried-coconut-chicken",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-19 12:14:14.588944"
+}

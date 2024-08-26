@@ -1,0 +1,40 @@
+{
+    "id": "tuna-ragu",
+    "name": "Tuna Ragu",
+    "image": "images/recipes/tuna-ragu.jpg",
+    "tags": ["main","seafood","cheap-and-cheerful","high-protein","gym-food","healthy","favourite","meal-prep","lactose-free","keto"],
+    "author": "Chloe Rene, Mob",
+    "edited": false,
+    "prepTime": "5m",
+    "cookTime": "30m",
+    "servings": 3,
+    "ingredients": [
+        "2 shallots",
+        "4 garlic cloves",
+        "1 lemon",
+        "1kg tinned plum tomatoes",
+        "25g fresh basil",
+        "400g (4 cans) tinned tuna"
+    ],
+    "method": [
+        "Trim and finely dice the shallots, then thinly slice the garlic.",
+        "Place a saucepan over a medium-high heat with a drizzle of olive oil. Once hot, add the shallot and garlic and cook, stirring, for 3-4 mins until translucent and fragrant.",
+        "Squeeze the lemon juice in and cook it out completely before tipping the canned tomatoes in. Using the back of a spoon or masher, crush the tomatoes. Bring the mixture to the boil, drop half the basil in (stalks and all), then turn the heat down to a gentle simmer. Cook, stirring occasionally, for 20-25 mins until thickened.",
+        "Once thickened, drain the tuna and stir it through the sauce. Taste and season with salt and pepper. Discard the cooked basil and stir through the remaining basil leaves."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [342],
+        "carbohydrates": [20],
+        "sugar": [14],
+        "protein": [38],
+        "fat": [10],
+        "saturated fat": [2],
+        "fibre": [8],
+        "salt": [0.86]
+    },
+    "source": "https://www.mob.co.uk/meal-plans/batch-cook-tuna-ragu/tuna-ragu",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-19 10:43:24.632120"
+}

@@ -1,0 +1,37 @@
+{
+    "id": "mushy-peas",
+    "name": "Mushy Peas",
+    "image": "images/recipes/mushy-peas.jpg",
+    "tags": ["side","cheap-and-cheerful","english","keto"],
+    "author": "Adam Bush, Mob",
+    "edited": false,
+    "prepTime": "0m",
+    "cookTime": "30m",
+    "servings": 4,
+    "ingredients": [
+        "900g tinned marrowfat peas",
+        "300ml chicken stock",
+        "75g butter",
+        "2 tbsp malt vinegar (sub. apple cider)",
+        "Ground white pepper, to taste"
+    ],
+    "method": [
+        "Drain the marrowfat peas through a fine sieve (discard the liquid), then tip them into a small saucepan. Pour in the chicken stock and put over a medium-high heat. Bring to the boil, then reduce the heat slightly and simmer for 20 mins until the peas are starting to collapse and it has thickened. Remove from the heat.",
+        "Use a potato masher to roughly crush the peas, then add the butter and season with the vinegar, salt and white pepper to taste."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [345],
+        "carbohydrates": [22],
+        "sugar": [14],
+        "protein": [14],
+        "fat": [17],
+        "saturated fat": [10],
+        "fibre": [13],
+        "salt": [0.12]
+    },
+    "source": "https://www.mob.co.uk/recipes/mushy-peas-recipe",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-18 20:41:56.526969"
+}

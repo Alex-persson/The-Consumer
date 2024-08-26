@@ -1,0 +1,40 @@
+{
+    "id": "goma-dare",
+    "name": "Goma Dare (Japanese Sesame Dip)",
+    "image": "images/recipes/goma-dare.jpg",
+    "tags": ["sauce","japanese","lactose-free","rapid","veggie"],
+    "author": "Romany Henry, Mob",
+    "edited": false,
+    "prepTime": "0m",
+    "cookTime": "5m",
+    "servings": 3,
+    "ingredients": [
+        "3 tbsp mayonnaise",
+        "2 tbsp toasted sesame seeds (any colour)",
+        "2 tbsp water",
+        "1 tsp soy sauce",
+        "1 tsp sesame oil",
+        "1 tsp light brown sugar",
+        "1 tbsp chives, chopped (or sub spring onions)",
+        "1 tsp dashi"
+    ],
+    "method": [
+        "Mix together all ingredients in a bowl.",
+        "Use to dip pork, chicken, veggies or as a dressing on salads."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [176],
+        "carbohydrates": [6.4],
+        "sugar": [2.2],
+        "protein": [4.2],
+        "fat": [15.6],
+        "saturated fat": [2.3],
+        "fibre": [1.8],
+        "salt": [0.79]
+    },
+    "source": "https://www.mob.co.uk/recipes/chicken-kaarage",
+    "imageSource": "https://www.wandercooks.com/goma-dare-sesame-sauce/",
+    "through": "Alex Persson",
+    "datetime": "2024-08-18 11:35:36.873195"
+}

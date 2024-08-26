@@ -4,6 +4,9 @@ const recipes = [];
 let tagOrder = [];
 let options = {};
 
+let currentPage = 1;
+const recipesPerPage = 40;
+
 // Function to load options from options.json
 async function loadOptions() {
     const response = await fetch('options/options.json');
@@ -22,7 +25,36 @@ async function loadRecipes() {
         "recipes/tofu-green-goddess-dressing.json",
         "recipes/harissa-chickpea-lamb-meatballs.json",
         "recipes/healthier-teriyaki-hasselback-tofu.json",
-        "recipes/thai-green-curry.json"
+        "recipes/thai-green-curry.json",
+        "recipes/goma-dare.json",
+        "recipes/chicken-cannellini-bean-pea-salad.json",
+        "recipes/caviar-aubergine.json",
+        "recipes/coconut-poached-fish.json",
+        "recipes/chicken-broccoli-chopped-salad.json",
+        "recipes/chicken-bacon-chopped-salad.json",
+        "recipes/honey-harissa-carrots-chickpeas.json",
+        "recipes/crispy-chilli-oil.json",
+        "recipes/bagel-smoked-salmon-quinoa-bowl.json",
+        "recipes/mushy-peas.json",
+        "recipes/carrot-chicken-butter-bean-salad.json",
+        "recipes/cashew-green-chicken.json",
+        "recipes/chipotle-chilli.json",
+        "recipes/chilli-chicken-salad.json",
+        "recipes/smashed-sichuan-chicken.json",
+        "recipes/crispy-ginger-sesame-beef.json",
+        "recipes/peanut-chicken-salad.json",
+        "recipes/tuna-ragu.json",
+        "recipes/chilli-herb-omelette-salmon.json",
+        "recipes/satay-chicken-rice-bowl.json",
+        "recipes/salmon-corn-pepper-salad.json",
+        "recipes/turmeric-braised-chicken.json",
+        "recipes/curried-coconut-roast-chicken.json",
+        "recipes/spice-crusted-salmon.json",
+        "recipes/sausage-sweet-potato-beans.json",
+        "recipes/pork-mince-stir-fry.json",
+        "recipes/basil-chicken-skewers.json",
+        "recipes/paprika-cod-chorizo-peas.json",
+        "recipes/five-minute-sesame-garlic-tofu.json"
     ];
 
     for (const file of recipeFiles) {
@@ -67,7 +99,7 @@ async function displayRecentRecipes() {
         gridItem.href = `recipe.html?id=${recipe.id}`;
 
         gridItem.querySelector('.recent-recipes__subtext').innerText = formattedDate;
-        gridItem.querySelector('.recent-recipes__title').innerText = recipe.name;
+        gridItem.querySelector('.recent-recipes__title').innerText = recipe.name.toUpperCase();
         gridItem.querySelectorAll('.recent-recipes__subtext')[1].innerText = totalTime;
         gridItem.querySelector('.recent-recipes__image-container img').src = recipe.image;
         gridItem.querySelector('.recent-recipes__image-container img').alt = `${recipe.name}`;
@@ -76,21 +108,86 @@ async function displayRecentRecipes() {
 }
 
 // Function to display all recipes on the recipes page
-async function displayAllRecipes() {
-    await loadRecipes();
-    
-    const allRecipesContainer = document.getElementById('all-recipes');
-    recipes.forEach(recipe => {
-        const recipeElement = document.createElement('div');
-        recipeElement.classList.add('recipe-item');
-        recipeElement.innerHTML = `
-            <a href="recipe.html?id=${recipe.id}">
-                <img src="${recipe.image}" alt="${recipe.name}">
-                <h3>${recipe.name}</h3>
+async function displayAllRecipes(page, load_new) {
+    if (load_new) await loadRecipesAndOptions();
+
+    // Sort recipes by datetime
+    const sortedRecipes = sortRecipesByDate(recipes);
+
+    // Calculate total pages
+    const totalPages = Math.ceil(sortedRecipes.length / recipesPerPage);
+
+    // Calculate start and end indices for pagination
+    const startIndex = (page - 1) * recipesPerPage;
+    const endIndex = Math.min(startIndex + recipesPerPage, sortedRecipes.length);
+    console.log((startIndex,endIndex))
+
+    console.log(`Page: ${page}, StartIndex: ${startIndex}, EndIndex: ${endIndex}`);
+
+    let recipesToShow = sortedRecipes.slice(startIndex, endIndex);
+
+    const recipesGrid = document.getElementById('all-recipes__grid');
+
+    // Clear the grid before adding new recipes
+    recipesGrid.innerHTML = '';
+
+    // Loop through the recipes for the current page
+    console.log(recipesToShow)
+    recipesToShow.forEach(recipe =>  {
+        const prepTimeMinutes = parseTime(recipe.prepTime);
+        const cookTimeMinutes = parseTime(recipe.cookTime);
+        const totalTime = formatTime(prepTimeMinutes + cookTimeMinutes);
+
+        const recipeHTML = `
+            <a href=recipe.html?id=${recipe.id} class="all-recipes__grid-item four-bracket-container">
+                <div class="bracket-top-right"></div>
+                <div class="bracket-bottom-left"></div>   
+                <div class="all-recipes__image-frame">
+                <div class="all-recipes__image-container">
+                        <img src="${recipe.image}" alt="${recipe.name}">
+                    </div>
+                    <div class="all-recipes__text-frame">
+                        <p class="all-recipes__title">${recipe.name.toUpperCase()}</p>
+                        <p class="all-recipes__subtext">${totalTime}</p>
+                    </div>
+                </div>
             </a>
         `;
-        allRecipesContainer.appendChild(recipeElement);
+        recipesGrid.innerHTML += recipeHTML;
     });
+
+    renderPagination(totalPages);
+}
+
+function sortRecipesByDate(recipes) {
+    return recipes.sort((a, b) => new Date(b.datetime) - new Date(a.datetime));
+}
+
+function renderPagination(totalPages) {
+    const pagination = document.getElementById('pagination-controls');
+    pagination.innerHTML = '';
+
+    const prevButton = document.createElement('button');
+    prevButton.textContent = 'Previous';
+    prevButton.disabled = currentPage === 1;
+    prevButton.addEventListener('click', () => {
+        if (currentPage > 1) {
+            currentPage--;
+            displayAllRecipes(currentPage, false);
+        }
+    });
+    pagination.appendChild(prevButton);
+
+    const nextButton = document.createElement('button');
+    nextButton.textContent = 'Next';
+    nextButton.disabled = currentPage === totalPages;
+    nextButton.addEventListener('click', () => {
+        if (currentPage < totalPages) {
+            currentPage++;
+            displayAllRecipes(currentPage, false);
+        }
+    });
+    pagination.appendChild(nextButton);
 }
 
 // Function to format the datetime as dd-mm-yyyy
@@ -359,7 +456,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         await displayRecentRecipes();
     }
     if (document.body.contains(document.getElementById('all-recipes'))) {
-        await displayAllRecipes();
+        await displayAllRecipes(currentPage, true);
     }
     if (document.body.contains(document.getElementById('recipe-details'))) {
         await displayRecipeDetails();
@@ -382,20 +479,22 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 });
 
-document.querySelector('.hover-highlight').addEventListener('mouseover', function() {
-    const img = document.getElementById('hover-image');
-    if (img) {
-        const originalSrc = img.src;
-        img.dataset.originalSrc = originalSrc; // Save the original src
-        const extensionIndex = originalSrc.lastIndexOf('.');
-        const highlightedSrc = originalSrc.slice(0, extensionIndex) + '-highlighted' + originalSrc.slice(extensionIndex);
-        img.src = highlightedSrc;
-    }
-});
+if (document.querySelector('.hover-highlight')) {
+    document.querySelector('.hover-highlight').addEventListener('mouseover', function() {
+        const img = document.getElementById('hover-image');
+        if (img) {
+            const originalSrc = img.src;
+            img.dataset.originalSrc = originalSrc; // Save the original src
+            const extensionIndex = originalSrc.lastIndexOf('.');
+            const highlightedSrc = originalSrc.slice(0, extensionIndex) + '-highlighted' + originalSrc.slice(extensionIndex);
+            img.src = highlightedSrc;
+        }
+    });
 
-document.querySelector('.hover-highlight').addEventListener('mouseout', function() {
-    const img = document.getElementById('hover-image');
-    if (img) {
-        img.src = img.dataset.originalSrc; // Restore the original src
-    }
-});
+    document.querySelector('.hover-highlight').addEventListener('mouseout', function() {
+        const img = document.getElementById('hover-image');
+        if (img) {
+            img.src = img.dataset.originalSrc; // Restore the original src
+        }
+    });
+}

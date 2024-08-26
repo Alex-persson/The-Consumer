@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
     <link rel="stylesheet" href="css/expandable.css">
+    <link rel="stylesheet" href="css/search.css">
 </head>
 <body>
     <!-- Header -->
@@ -61,7 +62,10 @@
             <button data-tag="Quick">Quick</button>
             <button data-tag="Healthy">Healthy</button>
         </div>
-        <div id="all-recipes" class="recipes-list"></div>
+        <div class="all-recipes" id="all-recipes">
+            <div id="all-recipes__grid" class="all-recipes__grid"></div>
+            <div id="pagination-controls" class="pagination-controls"></div>
+        </div>
     </main>
 
     <!-- Footer -->

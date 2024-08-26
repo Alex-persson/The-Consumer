@@ -1,0 +1,46 @@
+{
+    "id": "sausage-sweet-potato-beans",
+    "name": "Saucy Sausage Sweet Potato & Beans",
+    "image": "images/recipes/sausage-sweet-potato-beans.jpg",
+    "tags": ["main","pork","cheap-and-cheerful","healthy","english","meal-prep","autumn","lactose-free","favourite"],
+    "author": "Jordan Ezra King, Mob",
+    "edited": false,
+    "prepTime": "15m",
+    "cookTime": "20m",
+    "servings": 4,
+    "ingredients": [
+        "2 sweet potatoes",
+        "8 sausages (use high pork %)",
+        "1 onion",
+        "2 garlic cloves",
+        "2 tbsp tomato puree",
+        "1 sprig rosemary",
+        "240g (1 can) drained cannellini beans",
+        "250ml water",
+        "15g parsley",
+        "1 lemon"
+    ],
+    "method": [
+        "Peel and dice the sweet potato into roughly 3cm cubes.",
+        "Place a large pan over a medium heat and add a drizzle of olive oil. Add the sausages and potatoes and cook for 5 mins until well coloured.",
+        "Reduce the heat to low, finely slice the onions and garlic and add along with the tomato puree and rosemary. Cook for another few mins until the onion softens.",
+        "Pour in the beans and the water. Pop a lid on the pan and cook for about 10 mins until the potatoes have softened.",
+        "Peel a few strips of the lemon zest using a vegetable peeler. Finely mince the lemon zest and the parsley and mix together to make a gremolata.",
+        "Plate up with sausages and beans and sprinkle over the gremolata and a drizzle of olive oil. Finish with a squeeze of the lemon juice."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [466],
+        "carbohydrates": [43],
+        "sugar": [7],
+        "protein": [24],
+        "fat": [18],
+        "saturated fat": [5],
+        "fibre": [13],
+        "salt": [0.43]
+    },
+    "source": "https://www.mob.co.uk/recipes/saucy-sausage-sweet-potato-beans",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-19 18:04:09.507068"
+}

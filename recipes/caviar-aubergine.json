@@ -1,0 +1,36 @@
+{
+    "id": "caviar-aubergine",
+    "name": "Caviar d'Aubergine",
+    "image": "images/recipes/caviar-aubergine.jpg",
+    "tags": ["sauce","veggie","lactose-free","keto","french"],
+    "author": "Chloe Rene, Mob",
+    "edited": true,
+    "prepTime": "5m",
+    "cookTime": "30m",
+    "servings": 4,
+    "ingredients": [
+        "2 aubergines",
+        "1 garlic clove",
+        "2 sprigs thyme",
+        "45ml (3 tbsp) olive oil"
+    ],
+    "method": [
+        "Char the whole aubergines over a gas hob flame or under the grill. As the aubergines begin to cook, the skin will start to blacken. Once the skin is completely charred and black, remove the aubergines and put them into a bowl. Cover. As they cool, the skin will loosen, allowing you to peel the charred skin easily from the aubergine.",
+        "Peel the garlic and pick the thyme leaves, discarding the stalks. Blitz the aubergine flesh in a blender with the thyme leaves, garlic and 45ml olive oil. Taste and season with salt, pepper and lemon juice. Put in the fridge to cool."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving", "Total"],
+        "calories": [277, 1108],
+        "carbohydrates": [41.7, 166.8],
+        "sugar": [1.1, 4.4],
+        "protein": [6.2, 24.8],
+        "fat": [14.4, 57.6],
+        "saturated fat": [2.9, 11.6],
+        "fibre": [20.5, 82],
+        "salt": [0.1, 0.4]
+    },
+    "source": "https://www.mob.co.uk/recipes/aubergine-with-roast-chicken-parsley-pepper-salad",
+    "imageSource": "https://www.cookomix.com/recettes/moutabal-thermomix/",
+    "through": "Alex Persson",
+    "datetime": "2024-08-18 13:22:18.196469"
+}

@@ -1,0 +1,44 @@
+{
+    "id": "chicken-broccoli-chopped-salad",
+    "name": "Chicken & Broccoli Chopped Salad",
+    "image": "images/recipes/chicken-broccoli-chopped-salad.jpg",
+    "tags": ["lunch","chicken","cheap-and-cheerful","high-protein","healthy","meal-prep","favourite","gym-food","salad","lactose-free"],
+    "author": "Ben Lebus, Mob",
+    "edited": false,
+    "prepTime": "15m",
+    "cookTime": "25m",
+    "servings": 4,
+    "ingredients": [
+        "4 large chicken breasts",
+        "600g tenderstem broccoli",
+        "500g cooked quinoa (200g / 1 cup uncooked)",
+        "50g coriander",
+        "1 tbsp white miso paste",
+        "30g fresh ginger (2-3 inch piece)",
+        "2 tbsp sesame oil",
+        "5 tbsp olive oil",
+        "2 limes"
+    ],
+    "method": [
+        "Boil the broccoli in a pot of salted boiling water for 3-4 mins until it’s just about cooked. Remove the broccoli and allow it to cool.",
+        "Preheat your oven to 180°C. Season your chicken breasts generously with salt and pepper. Place your breasts onto a baking tray and get them in the oven for 25 mins. Allow them to cool once cooked – the salad doesn’t need to be warm.",
+        "Heat up your quinoa according to package instructions.",
+        "Squeeze the juice from your limes and combine with the rest of the dressing ingredients in a bowl.",
+        "Chop up the coriander, the cooked broccoli, and chicken into even-sized pieces. Combine your broccoli, coriander, chicken, and quinoa in a bowl before topping with the dressing and tossing vigorously. Serve and enjoy."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [737],
+        "carbohydrates": [35],
+        "sugar": [5],
+        "protein": [57],
+        "fat": [37],
+        "saturated fat": [5],
+        "fibre": [14],
+        "salt": [1.1]
+    },
+    "source": "https://www.mob.co.uk/recipes/chicken-broccoli-chopped-salad",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-18 14:15:14.163646"
+}

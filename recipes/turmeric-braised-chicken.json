@@ -1,0 +1,46 @@
+{
+    "id": "turmeric-braised-chicken",
+    "name": "Turmeric Braised Chicken",
+    "image": "images/recipes/turmeric-braised-chicken.jpg",
+    "tags": ["main","chicken","cheap-and-cheerful","high-protein","lactose-free","keto","meal-prep"],
+    "author": "Sophie Wyburd, Mob",
+    "edited": false,
+    "prepTime": "15m",
+    "cookTime": "1h",
+    "servings": 6,
+    "ingredients": [
+        "1.5kg skin-on bone-in chicken thighs",
+        "2 tsp ground turmeric",
+        "2 onions",
+        "4 garlic cloves",
+        "1.5 tsp ground cumin",
+        "1 tsp paprika",
+        "1 lemon",
+        "450ml chicken stock",
+        "25g fresh coriander",
+        "100g green olives",
+        "1 cinnamon stick, optional"
+    ],
+    "method": [
+        "Heat the oven to 190°C. Rub the chicken in ½ tsp turmeric and salt, then brown it in a hot frying pan for 6 mins on each side, until the fat has rendered out and it has browned a bit. Remove the chicken from the pan.",
+        "Finely slice the onions, then get these into the same pan over a medium heat. Cook for about 20 mins until softened.",
+        "Grate in the garlic and add the remaining turmeric, cumin and paprika. Cook these out for a minute.",
+        "Finely chop the preserved lemon and add to the pan, along with the chicken stock, cinnamon stick and chicken. Bring it up to a simmer. Pop in the oven and bake for 30 mins.",
+        "Finely chop most of the coriander leaves and add some to the pan, along with the olives. Adjust the seasoning."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [676],
+        "carbohydrates": [9],
+        "sugar": [4],
+        "protein": [44],
+        "fat": [50],
+        "saturated fat": [13],
+        "fibre": [2],
+        "salt": [0.57]
+    },
+    "source": "https://www.mob.co.uk/meal-plans/batch-cook-turmeric-braised-chicken-chickpeas/batch-turmeric-braised-chicken-chickpeas",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-19 12:04:08.558189"
+}

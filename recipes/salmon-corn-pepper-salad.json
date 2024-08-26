@@ -1,0 +1,45 @@
+{
+    "id": "salmon-corn-pepper-salad",
+    "name": "Salmon With Corn & Roasted Red Pepper Salad",
+    "image": "images/recipes/salmon-corn-pepper-salad.jpg",
+    "tags": ["lunch","seafood","healthy","salad","meal-prep","lactose-free"],
+    "author": "Mob",
+    "edited": false,
+    "prepTime": "10m",
+    "cookTime": "25m",
+    "servings": 4,
+    "ingredients": [
+        "500g salmon",
+        "4 sweetcorn cobs (sub. 2 tins sweetcorn)",
+        "320g roasted red peppers",
+        "250g cooked brown rice (1/2 cup uncooked)",
+        "25g fresh parsley",
+        "25g coriander",
+        "1 red onion",
+        "2 lemons",
+        "250g cherry tomatoes"
+    ],
+    "method": [
+        "Drain the red peppers and thinly slice. Cut the kernels off the corn, pick the leaves off the herbs and finely slice the stems. Peel and finely dice the onion. Halve the tomatoes.",
+        "Add the onion into a large bowl with the zest of half a lemon and the juice of both. Season with salt and pepper, stir in 30ml of olive oil. Set aside.",
+        "Place a frying pan over a high heat, with no oil. Once hot, add half the corn kernels and cook until starting to char, 3-4 mins.",
+        "Meanwhile, lay the salmon crust-side down, in a cold non-stick frying pan. Place over a medium heat and cook for 10 mins until the skin is crisp and most of the salmon is pale pink. Flip over and remove the pan from the heat.",
+        "Add all the corn, roasted peppers, tomatoes, rice, chopped stems and herbs into the onion dressing, toss together. Season with salt and pepper.",
+        "Share the salad between your plates and top with the salmon and a drizzle of oil."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [487],
+        "carbohydrates": [43],
+        "sugar": [14],
+        "protein": [32],
+        "fat": [20],
+        "saturated fat": [4],
+        "fibre": [9],
+        "salt": [0.99]
+    },
+    "source": "https://www.mob.co.uk/recipes/salmon-roasted-red-pepper-salad",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-19 11:42:56.966261"
+}

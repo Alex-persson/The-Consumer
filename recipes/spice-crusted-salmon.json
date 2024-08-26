@@ -1,0 +1,37 @@
+{
+    "id": "spice-crusted-salmon",
+    "name": "Spice Crusted Salmon",
+    "image": "images/recipes/spice-crusted-salmon.jpg",
+    "tags": ["main","seafood","healthy","high-protein","keto","lactose-free","fancy-stuff"],
+    "author": "Mob",
+    "edited": true,
+    "prepTime": "10m",
+    "cookTime": "20m",
+    "servings": 3,
+    "ingredients": [
+        "1 tbsp cumin",
+        "1 tbsp coriander seeds",
+        "50g mixed seeds",
+        "500g salmon",
+        "1 lemon"
+    ],
+    "method": [
+        "Heat the grill to high. Tip the cumin seeds and coriander seeds into a dry pan. Place over a medium-high heat and toast until the seeds are fragrant,1-2 mins. Then, tip into a pestle and mortar and roughly crush, tip onto a plate. If you don't have a pestle and mortar, add into a sandwich bag and bash using a heavy pan or rolling pin. Add the seeds to the dry pan and toast until popping, 2-3 mins then tip onto the spices, mix and set aside.",
+        "Take the salmon and press it, skin-side down into the spiced seeds to create a crust. Lay the salmon crust-side down, in a cold non-stick frying pan. Place over a medium heat and cook for 10 mins until the skin is crisp and most of the salmon is pale pink. Flip over and remove the pan from the heat. Leave to sit for 5 minutes, it will continue to cook."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [467],
+        "carbohydrates": [19.8],
+        "sugar": [2.5],
+        "protein": [45],
+        "fat": [26.9],
+        "saturated fat": [3.1],
+        "fibre": [8.9],
+        "salt": [0.21]
+    },
+    "source": "https://www.mob.co.uk/recipes/spice-crusted-salmon",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-19 12:24:53.590126"
+}

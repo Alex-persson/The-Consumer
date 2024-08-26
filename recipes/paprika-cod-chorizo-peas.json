@@ -1,0 +1,48 @@
+{
+    "id": "paprika-cod-chorizo-peas",
+    "name": "Baked Paprika Cod With Peas & Spicy Chorizo Dressing",
+    "image": "images/recipes/paprika-cod-chorizo-peas.jpg",
+    "tags": ["main","seafood","high-protein","fancy-stuff"],
+    "author": "Ben Lippett, Mob",
+    "edited": false,
+    "prepTime": "15m",
+    "cookTime": "15m",
+    "servings": 4,
+    "ingredients": [
+        "4 cod fillets",
+        "2 tsp smoked paprika",
+        "4 garlic cloves",
+        "300g frozen peas",
+        "2 shallots",
+        "125g spicy chorizo",
+        "2 tbsp sherry vinegar",
+        "25g chives",
+        "500g cooked grain medley (or just quinoa)",
+        "1 lemon",
+        "6 tbsp yoghurt, optional"
+    ],
+    "method": [
+        "Preheat the oven to 220°C.",
+        "Pat the cod fillets dry with a bit of kitchen paper and pop them onto a tray lined with parchment. Sprinkle them with salt and the smoked paprika. Grate over half of the garlic cloves and add a good splash of olive oil. Roll the fish around in the spices and garlic. Set aside.",
+        "Pour boiling water from the kettle over the pea. Finely dice the remaining garlic cloves and the shallots. Cut the chorizo into 1cm cubes. Now slide the cod into the oven for 10-11 mins.",
+        "While the cod is cooking, finish the garnish. Preheat a small frying pan over a medium heat. Tip in the chorizo and cook for 5-6 mins until rendered and crispy. Add the diced shallots and half the garlic and cook for 2 mins. Add the sherry vinegar and defrosted peas. Finely cut the chives and add half to the dressing.",
+        "Mix the yoghurt with the remaining garlic, the zest from the lemon and some salt. Cut the lemon into wedges for later.",
+        "Heat the grains according to the package instructions. Pull the cooked fish out of the oven.",
+        "Divide the grains between warm bowls. Top with a piece of cod, some garlic yoghurt and dress with lashings of the spicy chorizo and pea dressing. Finish with chives and a lemon wedge."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [660],
+        "carbohydrates": [56],
+        "sugar": [8],
+        "protein": [58],
+        "fat": [18],
+        "saturated fat": [4],
+        "fibre": [11],
+        "salt": [0.96]
+    },
+    "source": "https://www.mob.co.uk/meal-plans/the-30-minutes-one/baked-paprika-cod",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-20 12:00:41.031830"
+}
