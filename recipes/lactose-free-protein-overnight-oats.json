@@ -1,0 +1,41 @@
+{
+    "id": "lactose-free-protein-overnight-oats",
+    "name": "Lactose-Free Protein Overnight Oats",
+    "image": "images/recipes/lactose-free-protein-overnight-oats.jpg",
+    "tags": ["breakfast","healthy","lactose-free","meal-prep","high-protein","favourite","gym-food","rapid","made-up"],
+    "author": "Alex Persson",
+    "edited": false,
+    "prepTime": "5m",
+    "cookTime": "0m",
+    "servings": 1,
+    "ingredients": [
+        "1/2 cup (45g) jumbo oats",
+        "1/2 tbsp chia seeds",
+        "160ml unsweetened soy milk",
+        "1 scoop protein powder (casein best, flavour of your choice)",
+        "1 tsp cacao powder or 1 tsp matcha powder",
+        "Flaked almonds, to garnish",
+        "Frozen fruit to top, optional"
+    ],
+    "method": [
+        "Mix together oats, chia seeds, soy milk, protein powder, and matcha if using in a sealable container like a jar.",
+        "Seal and leave for at least 4 hours or overnight.",
+        "Top with cacao powder (if you haven't used matcha) and other chosen toppings.",
+        "Make up to 2 days in advance."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (No Toppings)"],
+        "calories": [466],
+        "carbohydrates": [16.5],
+        "sugar": [2],
+        "protein": ["protein powder + 10"],
+        "fat": [14.2],
+        "saturated fat": [2.8],
+        "fibre": [8.9],
+        "salt": [0.14]
+    },
+    "source": "",
+    "imageSource": "https://thefoodiephysician.com/high-protein-overnight-oats/",
+    "through": "Alex Persson",
+    "datetime": "2024-08-30 11:26:40.707711"
+}

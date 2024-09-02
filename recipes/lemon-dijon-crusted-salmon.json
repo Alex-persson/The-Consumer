@@ -1,0 +1,46 @@
+{
+    "id": "lemon-dijon-crusted-salmon",
+    "name": "Lemon Dijon Panko Crusted Salmon",
+    "image": "images/recipes/lemon-dijon-crusted-salmon.jpg",
+    "tags": ["main","seafood","healthy","lactose-free","meal-prep","high-protein","favourite"],
+    "author": "Sara, Nutrient Matters",
+    "edited": false,
+    "prepTime": "10m",
+    "cookTime": "15m",
+    "servings": 2,
+    "ingredients": [
+        "2 (2x150g+) salmon fillets",
+        "1 tsp garlic powder",
+        "1 tsp smoked paprika",
+        "Salt & pepper",
+        "1 heaped tsp dijon mustard",
+        "1 tsp honey",
+        "2 garlic cloves, minced",
+        "1 lemon (1/2 juiced, 1/2 to serve)",
+        "10g fresh dill, for seasoning and garnish (or sub dried dill in seasoning)",
+        "2 tbsp panko breadcrumbs",
+        "Cooked rice or quinoa to serve"
+    ],
+    "method": [
+        "Preheat oven to 160°C fan.",
+        "Season salmon with garlic powder, paprika, salt, and pepper.",
+        "Combine dijon mustard, honey, dill, minced garlic, and lemon juice. Brush on surface (including sides!) of salmon fillets. Save extra sauce to drizzle at end.",
+        "Top with panko breadcrumbs and spray with a low cal cooking spray/avocado oil. Put salmon in the oven and cook for 15 mins (or 4 mins per thickness/until cooked through).",
+        "Serve with rice/quinoa and something like garlicy green beans would be nice. Drizzle with any left-over sauce amd garnish with fresh dill."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (No Rice)"],
+        "calories": [386],
+        "carbohydrates": [30],
+        "sugar": [7.3],
+        "protein": [39.2],
+        "fat": [12.8],
+        "saturated fat": [1.9],
+        "fibre": [2.7],
+        "salt": [0.34]
+    },
+    "source": "https://www.youtube.com/shorts/5jKeqbkJOiQ",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-08-30 10:59:44.897629"
+}

@@ -1,12 +1,11 @@
 {
     "tags": {
-        "Course": ["main", "lunch", "breakfast", "side", "starter", "sauce", "drink", "dessert"],
+        "Course": ["main", "lunch", "breakfast", "side", "starter", "sauce", "drink", "dessert", "seasoning"],
         "Food": ["beef", "chicken", "pork", "lamb", "turkey", "seafood", "veggie"],
         "Price": ["cheap-and-cheerful", "fancy-stuff"], 
         "Time": ["rapid", "meal-prep"],
-        "Health": ["healthy", "cheat-meal", "gym-food"],
+        "Health": ["healthy", "high-protein", "keto", "gym-food", "cheat-meal", "lactose-free"],
         "Season": ["summer","autumn","spring","winter", "holiday"],
-        "Diet": ["keto", "high-protein", "lactose-free"],
         "Type": ["salad", "soup", "sandwich", "pasta", "stir-fry"],
         "Cuisine": ["english", "japanese", "french", "american", "swedish", "italian", "thai", "indian", "vietnamese", "mediterranean", "middle-eastern", "chinese", "latin-american"],
         "Special": ["made-up", "favourite"]

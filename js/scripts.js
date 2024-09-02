@@ -3,6 +3,7 @@ const recipes = [];
 // Initialize an empty array to store tag order
 let tagOrder = [];
 let options = {};
+let activeTags = [];
 
 let currentPage = 1;
 const recipesPerPage = 40;
@@ -36,25 +37,23 @@ async function loadRecipes() {
         "recipes/crispy-chilli-oil.json",
         "recipes/bagel-smoked-salmon-quinoa-bowl.json",
         "recipes/mushy-peas.json",
-        "recipes/carrot-chicken-butter-bean-salad.json",
         "recipes/cashew-green-chicken.json",
         "recipes/chipotle-chilli.json",
         "recipes/chilli-chicken-salad.json",
-        "recipes/smashed-sichuan-chicken.json",
         "recipes/crispy-ginger-sesame-beef.json",
-        "recipes/peanut-chicken-salad.json",
         "recipes/tuna-ragu.json",
         "recipes/chilli-herb-omelette-salmon.json",
         "recipes/satay-chicken-rice-bowl.json",
-        "recipes/salmon-corn-pepper-salad.json",
         "recipes/turmeric-braised-chicken.json",
         "recipes/curried-coconut-roast-chicken.json",
-        "recipes/spice-crusted-salmon.json",
         "recipes/sausage-sweet-potato-beans.json",
         "recipes/pork-mince-stir-fry.json",
         "recipes/basil-chicken-skewers.json",
         "recipes/paprika-cod-chorizo-peas.json",
-        "recipes/five-minute-sesame-garlic-tofu.json"
+        "recipes/five-minute-sesame-garlic-tofu.json",
+        "recipes/lemon-dijon-crusted-salmon.json",
+        "recipes/lactose-free-protein-overnight-oats.json",
+        "recipes/thai-green-rice.json"
     ];
 
     for (const file of recipeFiles) {
@@ -62,6 +61,60 @@ async function loadRecipes() {
         const recipe = await response.json();
         recipes.push(recipe);
     }
+}
+
+async function displayWordTagSearch() {
+    await loadOptions();
+
+    const container = document.getElementById('search-box')
+
+    let searchHTML = `<div class="tag-list">`;
+
+    for (const [category, tags] of Object.entries(options.tags)) {
+        searchHTML += `<div class="tag-row">`;
+
+        tags.forEach(tag => {
+            const tagHTML = `<span class="tag-button" data-tag="${tag}">
+                                ${(options["tag-formats"][tag] || tag).toUpperCase()}
+                                <ion-icon name="close" class="tag-icon"></ion-icon>
+                            </span>`;
+            searchHTML += tagHTML;
+        });
+
+        searchHTML += `</div>`;
+    }
+    searchHTML += `</div>`;
+
+    container.innerHTML = searchHTML;
+
+    document.querySelectorAll('.tag-button').forEach(button => {
+        button.addEventListener('click', function() {
+            const tag = this.getAttribute('data-tag');
+    
+            if (activeTags.includes(tag)) {
+                // Remove the tag from activeTags
+                activeTags = activeTags.filter(t => t !== tag);
+                // Reset background color
+                this.style.backgroundColor = '#000';
+                this.style.color = 'white';
+                this.style.fontWeight = 350;
+                this.querySelector('.tag-icon').style.display = 'none';
+                displayAllRecipes(currentPage, false);
+            } else {
+                // Add the tag to activeTags
+                activeTags.push(tag);
+                // Set background color to red to indicate active state
+                this.style.backgroundColor = 'red';
+                this.style.color = 'black';
+                this.style.fontWeight = 600;
+                this.querySelector('.tag-icon').style.display = 'inline-block';
+                displayAllRecipes(currentPage, false);
+            }
+    
+            // Optional: Log the activeTags array to the console to see the result
+            console.log(activeTags);
+        });
+    });
 }
 
 // Function to load all recipes and options
@@ -89,7 +142,7 @@ async function displayRecentRecipes() {
         const totalTime = formatTime(prepTimeMinutes + cookTimeMinutes);
         const gridItem = gridItems[index];
 
-        const favouriteTag = `<div class="small-favourite-tag" style="${recipe.tags.includes('favourite') ? (recipe.tags.includes('made-up') ? 'right: 50px;' : 'right: 10px;') : 'display: none;'}">
+        const favouriteTag = `<div class="small-favourite-tag" style="${recipe.tags.includes('favourite') ? (recipe.tags.includes('made-up') ? 'right: 40px;' : 'right: 6px;') : 'display: none;'}">
                                 <ion-icon name="heart"></ion-icon>
                             </div>`;
         const madeUpTag = `<div class="small-made-up-tag" style="${recipe.tags.includes('made-up') ? '' : 'display: none;'}">
@@ -112,7 +165,9 @@ async function displayAllRecipes(page, load_new) {
     if (load_new) await loadRecipesAndOptions();
 
     // Sort recipes by datetime
-    const sortedRecipes = sortRecipesByDate(recipes);
+    const tagFilteredRecipes = filterRecipesByTag(recipes);
+
+    const sortedRecipes = sortRecipesByDate(tagFilteredRecipes);
 
     // Calculate total pages
     const totalPages = Math.ceil(sortedRecipes.length / recipesPerPage);
@@ -138,16 +193,29 @@ async function displayAllRecipes(page, load_new) {
         const cookTimeMinutes = parseTime(recipe.cookTime);
         const totalTime = formatTime(prepTimeMinutes + cookTimeMinutes);
 
+        const favouriteTag = `<div class="small-favourite-tag" style="${recipe.tags.includes('favourite') ? (recipe.tags.includes('made-up') ? 'right: 50px;' : 'right: 10px;') : 'display: none;'}">
+                                <ion-icon name="heart"></ion-icon>
+                            </div>`;
+        const madeUpTag = `<div class="small-made-up-tag" style="${recipe.tags.includes('made-up') ? '' : 'display: none;'}">
+                                <ion-icon name="star"></ion-icon>
+                            </div>`;
+
         const recipeHTML = `
             <a href=recipe.html?id=${recipe.id} class="all-recipes__grid-item four-bracket-container">
                 <div class="bracket-top-right"></div>
                 <div class="bracket-bottom-left"></div>   
                 <div class="all-recipes__image-frame">
-                <div class="all-recipes__image-container">
+                    <div class="all-recipes__image-container">
                         <img src="${recipe.image}" alt="${recipe.name}">
+                        <div class="small-favourite-tag" style="${recipe.tags.includes('favourite') ? (recipe.tags.includes('made-up') ? 'right: 40px;' : 'right: 6px;') : 'display: none;'}">
+                            <ion-icon name="heart"></ion-icon>
+                        </div>
+                        <div class="small-made-up-tag" style="${recipe.tags.includes('made-up') ? '' : 'display: none;'}">
+                            <ion-icon name="star"></ion-icon>
+                        </div>
                     </div>
                     <div class="all-recipes__text-frame">
-                        <p class="all-recipes__title">${recipe.name.toUpperCase()}</p>
+                        <p class="all-recipes__title clamp-three">${recipe.name.toUpperCase()}</p>
                         <p class="all-recipes__subtext">${totalTime}</p>
                     </div>
                 </div>
@@ -273,6 +341,14 @@ function sortTags(tags) {
     return tags.sort((a, b) => {
         return (tagOrder.indexOf(a) - tagOrder.indexOf(b));
     });
+}
+
+function filterRecipesByTag(recipes) {
+    return activeTags.length === 0
+    ? recipes
+    : recipes.filter(recipe =>
+        activeTags.every(tag => recipe.tags.includes(tag))
+    );
 }
 
 function generateNutritionalTable(nutrition) {
@@ -452,6 +528,9 @@ async function displayRecipeDetails() {
 
 
 document.addEventListener('DOMContentLoaded', async () => {
+    if (document.body.contains(document.getElementById('search-box'))) {
+        await displayWordTagSearch();
+    }
     if (document.contains(document.getElementById('recent-recipes'))) {
         await displayRecentRecipes();
     }

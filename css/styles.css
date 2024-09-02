@@ -28,6 +28,30 @@ body {
     border-radius: 5px;
 }
 
+.clamp-three {
+    display: -webkit-box;       
+    -webkit-box-orient: vertical; 
+    overflow: hidden;            
+    -webkit-line-clamp: 3;       
+    line-clamp: 3;                  
+}
+
+.clamp-four {
+    display: -webkit-box;       
+    -webkit-box-orient: vertical; 
+    overflow: hidden;            
+    -webkit-line-clamp: 4;       
+    line-clamp: 4;                  
+}
+
+.clamp-five {
+    display: -webkit-box;       
+    -webkit-box-orient: vertical; 
+    overflow: hidden;            
+    -webkit-line-clamp: 5;       
+    line-clamp: 5;                  
+}
+
 #tags {
     margin-bottom: 20px;
 }
@@ -145,12 +169,12 @@ body {
 
 .small-favourite-tag {
     position: absolute;
-    top: 10px; /* Adjust as needed */
-    right: 10px; /* Adjust as needed */
+    top: 6px; /* Adjust as needed */
+    right: 6px; /* Adjust as needed */
     background: linear-gradient(to right, #ff5d73, #e40000);
     color: white;
-    font-size: 15pt;
-    padding: 5px;
+    font-size: 14pt;
+    padding: 4px;
     aspect-ratio: 1;
     font-weight: normal;
     display: flex;
@@ -160,12 +184,12 @@ body {
 
 .small-made-up-tag {
     position: absolute;
-    top: 10px; /* Adjust as needed */
-    right: 10px; /* Adjust as needed */
+    top: 6px; /* Adjust as needed */
+    right: 6px; /* Adjust as needed */
     background: linear-gradient(to right, #67abff, #007BFF);
     color: white;
-    font-size: 15pt;
-    padding: 5px;
+    font-size: 14pt;
+    padding: 4px;
     aspect-ratio: 1;
     font-weight: normal;
     display: flex;

@@ -63,13 +63,13 @@
 }
 
 .recent-recipes__image-container {
-    height: calc(100% - 20px);
+    height: calc(100% - 12px);
     aspect-ratio: 1;
     align-items: center;
     overflow: hidden;
     position: relative;
     background-color: transparent;
-    margin-right: 10px;
+    margin-right: 6px;
 }
 
 .recent-recipes__image-container img {
@@ -86,8 +86,8 @@
 .recent-recipes__text-frame {
     flex: 1;
     background-color: transparent;
-    height: calc(100% - 20px);
-    margin: 10px;
+    height: calc(100% - 12px);
+    margin: 6px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -98,7 +98,7 @@
 .recent-recipes__text-frame p {
     margin: 0;
     font-family: "Archivo Black", sans-serif;
-    font-size: clamp(9pt, 1.1vw, 20pt);
+    font-size: clamp(10pt, 1.25vw, 22pt);
     color: black;
     background-color: transparent;
     text-overflow: ellipsis;
@@ -112,7 +112,7 @@
 }
 
 .recent-recipes__grid-item1 .recent-recipes__text-frame p {
-    font-size: clamp(17pt, 2.5vw, 28pt);
+    font-size: clamp(17pt, 2.7vw, 30pt);
 }
 
 .recent-recipes__text-frame .recent-recipes__subtext {
@@ -139,23 +139,23 @@
     color: white;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1060px) {
     .recent-recipes__grid {
         max-width: 650px;
         grid-template-columns: repeat(2, 1fr);
     }
 
     .recent-recipes__text-frame p {
-        font-size: clamp(10pt, 1.2vw, 18pt);
+        font-size: clamp(11.5pt, 1.2vw, 18pt);
     }
 
     .recent-recipes__grid-item1 .recent-recipes__text-frame p {
-        font-size: clamp(16pt, 4vw, 25pt);
+        font-size: clamp(17pt, 4vw, 27pt);
     }
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
     .recent-recipes__grid {
         grid-template-columns: 1fr;
     }
@@ -165,11 +165,11 @@
     }
 
     .recent-recipes__text-frame p {
-        font-size: clamp(16pt, 2vw, 18pt);
+        font-size: clamp(17pt, 2vw, 22pt);
     }
 
     .recent-recipes__grid-item1 .recent-recipes__text-frame p {
-        font-size: clamp(16pt, 2vw, 18pt);
+        font-size: clamp(17pt, 2vw, 22pt);
     }
 }
 

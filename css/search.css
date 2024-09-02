@@ -12,7 +12,7 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: red;
+    background-color: transparent;
     padding: 0;
 }
 
@@ -30,6 +30,10 @@ main {
     text-decoration: none;
 }
 
+.all-recipes__grid-item:hover .all-recipes__image-frame {
+    background-color: black;
+}
+
 .all-recipes__image-frame {
     display: flex;
     flex-direction: column;
@@ -38,18 +42,18 @@ main {
     align-items: center;
     justify-content: center;
     background-color: #d6d6d2;
-    aspect-ratio: 3.5 / 5;
+    aspect-ratio: 3.25 / 5;
     transition: background-color 0.3s ease;
 }
 
 .all-recipes__image-container {
-    width: calc(100% - 20px);
+    width: calc(100% - 12px);
     aspect-ratio: 1;
     align-items: center;
     overflow: hidden;
     position: relative;
     background-color: transparent;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 .all-recipes__image-container img {
@@ -65,9 +69,10 @@ main {
 
 .all-recipes__text-frame {
     flex: 1;
-    background-color: blue;
-    width: calc(100% - 20px);
-    margin: 10px 0;
+    background-color: transparent;
+    width: calc(100% - 12px);
+    height: calc((100% * (1.75/5)) - 18px);
+    margin: 6px 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -78,10 +83,47 @@ main {
 .all-recipes__text-frame p {
     margin: 0;
     font-family: "Archivo Black", sans-serif;
-    font-size: clamp(9pt, 1.1vw, 20pt);
+    font-size: clamp(12pt, 1.5vw, 15pt);
     color: black;
     background-color: transparent;
     text-overflow: ellipsis;
+}
+
+.all-recipes__text-frame .all-recipes__subtext {
+    font-family: "Source Code Pro", sans-serif;
+    font-size: 11pt;
+    margin: 0;
+    color: black;
+    background-color: transparent;
+}
+
+.all-recipes__grid-item:hover .all-recipes__image-frame .all-recipes__text-frame .all-recipes__subtext {
+    color: white;
+}
+
+.all-recipes__grid-item:hover .all-recipes__title {
+    color: white;
+}
+
+@media (max-width: 1080px) {
+    .all-recipes__grid {
+        max-width: 830px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 870px) {
+    .all-recipes__grid {
+        max-width: 620px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 660px) {
+    .all-recipes__grid {
+        max-width: 410px;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .pagination-controls {
@@ -104,4 +146,60 @@ main {
 
 .pagination-button:hover {
     background-color: #f0f0f0;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 15px 10px 0px 10px;
+    background-color: #202020; /* Background color for the header */
+    margin-bottom: 15px;
+}
+
+.tag-list {
+
+}
+
+.tag-row {
+    margin-bottom: 15px;
+}
+
+.tag-button {
+    color: #e0e0dc;
+    background: #000;
+    font-size: 11pt;
+    padding: 0px 8px;
+    border-radius: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-flex; /* Use inline-flex for flex layout */
+    align-items: center; /* Center items vertically */
+    border: transparent;
+    border-style: solid;
+    border-width: 1.4px;
+    font-family: "Source Code Pro", sans-serif;
+    white-space: nowrap;
+    cursor: pointer;
+    position: relative; /* Position context for the icon */
+    height: 25px; /* Fixed height to prevent changes */
+}
+
+.tag-button .tag-icon {
+    display: none; /* Hide by default */
+    margin-left: 8px; /* Space between text and icon */
+    font-size: 12pt; /* Adjust icon size */
+    vertical-align: middle; /* Align icon vertically within flex container */
+}
+
+.tag-button.active {
+    background-color: red;
+}
+
+.tag-button:hover {
+    border: red;
+    border-style: solid;
+    border-width: 1.4px;
+    background-color: transparent;
 }
