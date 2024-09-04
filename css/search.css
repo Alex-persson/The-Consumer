@@ -203,3 +203,13 @@ main {
     border-width: 1.4px;
     background-color: transparent;
 }
+
+.no-results-notice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    font-family: "Source Code Pro", sans-serif;
+    font-weight: 500;
+}

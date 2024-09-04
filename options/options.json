@@ -19,8 +19,9 @@
         "lactose-free": "Lactose-Free",
         "middle-eastern": "Middle Eastern",
         "latin-american": "Latin American",
-        "made-up": "Completely Made-Up",
+        "made-up": "Invented",
         "stir-fry": "Stir-Fry",
         "gym-food": "Gym Food"
-    }
+    },
+    "common-tags": ["cheap-and-cheerful","healthy","high-protein","salad","chicken","lunch"]
 }

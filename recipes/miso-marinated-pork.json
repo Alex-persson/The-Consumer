@@ -1,0 +1,40 @@
+{
+    "id": "miso-marinated-pork",
+    "name": "Miso Marinated Pork",
+    "image": "images/recipes/miso-marinated-pork.jpg",
+    "tags": ["main","pork","cheap-and-cheerful","japanese","meal-prep","lactose-free","high-protein","healthy"],
+    "author": "Just Bento",
+    "edited": false,
+    "prepTime": "24h",
+    "cookTime": "10m",
+    "servings": 2,
+    "ingredients": [
+        "300g boneless pork cutlets/chops, sliced thinly (5mm thick)",
+        "3 tbsp white miso",
+        "3 tbsp red miso (can just duplicate one kind)",
+        "2-inch ginger, grated",
+        "2 tbsp sake",
+        "1 tsp honey"
+    ],
+    "method": [
+        "Trim fat from pork chops, if they are too thick try part freezing and slicing or pound them out until about 5mm thick.",
+        "Mix all other ingredients together to form the marinade. Combine well with pork slices and marinate for at least 3 hours up to 24 (no more!)",
+        "Heat a pan over medium-high heat, add olive oil or low cal cooking spray. Cook pork slices for 2-3 mins on each side until surface is browned and crispy.",
+        "Slice into small pieces and serve over rice or as part of a bento box."  
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [419],
+        "carbohydrates": [19.6],
+        "sugar": [9.5],
+        "protein": [43.9],
+        "fat": [16],
+        "saturated fat": [5.1],
+        "fibre": [2.4],
+        "salt": [1.61]
+    },
+    "source": "https://www.justbento.com/handbook/recipe-collection-mains/miso-marinated-pork-butaniku-no-misozuke",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-09-04 11:34:53.710344"
+}

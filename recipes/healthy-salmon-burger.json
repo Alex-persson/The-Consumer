@@ -1,0 +1,39 @@
+{
+    "id": "healthy-salmon-burger",
+    "name": "Healthy Salmon Burger",
+    "image": "images/recipes/healthy-salmon-burger.jpg",
+    "tags": ["main","seafood","healthy","high-protein","gym-food","keto","lactose-free"],
+    "author": "Good Food Team, BBC Goodfood",
+    "edited": false,
+    "prepTime": "20m",
+    "cookTime": "10m",
+    "servings": 4,
+    "ingredients": [
+        "4 (~600g) boneless skinless salmon fillets, cut into chunks",
+        "2 tbsp thai red curry paste",
+        "thumb-sized piece fresh ginger, grated",
+        "1 tsp soy sauce",
+        "1 tsp avocado oil (or use cooking spray)",
+        "lemon wedges, to serve (a must!)",
+        "1 bunch coriander, roughly chopped"
+    ],
+    "method": [
+        "Tip the salmon into a food processor with the paste, ginger, soy and chopped coriander. Pulse until roughly minced. Tip out the mix and shape into 4 burgers. Heat the oil in a non-stick frying pan, then fry the burgers for 4-5 mins on each side, turning until crisp and cooked through.",
+        "Serve with rice or salad."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [292],
+        "carbohydrates": [7],
+        "sugar": [6],
+        "protein": [29],
+        "fat": [17],
+        "saturated fat": [4],
+        "fibre": [0],
+        "salt": [0.83]
+    },
+    "source": "https://www.bbcgoodfood.com/recipes/superhealthy-salmon-burgers",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-09-04 11:47:46.094000"
+}

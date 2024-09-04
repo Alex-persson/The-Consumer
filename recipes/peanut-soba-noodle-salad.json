@@ -1,0 +1,53 @@
+{
+    "id": "peanut-soba-noodle-salad",
+    "name": "Peanut Soba Noodle Salad",
+    "image": "images/recipes/peanut-soba-noodle-salad.jpg",
+    "tags": ["side","veggie","salad","meal-prep","healthy","lactose-free","japanese"],
+    "author": "Mishka, @mishkamakesfood",
+    "edited": true,
+    "prepTime": "10m",
+    "cookTime": "10m",
+    "servings": 4,
+    "ingredients": [
+        "2 bundles (120g) dry soba noodles",
+        "<strong>veg mix 1:</strong> 1/2 small red cabbage, finely sliced",
+        "<strong>veg mix 1:</strong> 2 carrots, sliced into long matchsticks",
+        "<strong>veg mix 1:</strong> 1 cucumber, sliced into long matchsticks",
+        "<strong>veg mix 1:</strong> 500g frozen edamame, cooked and drained",
+        "<strong>veg mix 1:</strong> 1 red bell pepper, sliced, optional",
+        "<strong>veg mix 2:</strong> 2 tins (250-300g) of sweetcorn",
+        "<strong>veg mix 2:</strong> 100g sugar snaps, sliced thinly across",
+        "<strong>veg mix 2:</strong> 200g kale, sliced very finely",
+        "<strong>veg mix 2:</strong> 10 radishes, sliced thinly",
+        "<strong>veg mix 2:</strong> 1 courgette, julienned, optional",
+        "3 tbsp peanut butter",
+        "3 tbsp low sodium soy sauce",
+        "1 tbsp honey",
+        "1 tbsp rice vinegar",
+        "2 tbsp sriracha",
+        "1 garlic cloves, minced",
+        "juice of 0.5-1 lime (to taste)",
+        "1 tsp ground/fresh ginger, optional",
+        "Extra lime wedges to serve, optional"
+    ],
+    "method": [
+        "Cook noodles according to package instructions. Combine with vegetables from mix 1 or 2 (recommend not mixing but you do you).",
+        "Stir together peanut butter, soy sauce, honey, sriracha, garlic, vinegar, ginger if using, and lime juice to make the sauce. Use water to thin as necessary (think typical dressing thickness).",
+        "Toss together veggie-noodle mixture with sauce. Keep for up to 5 days in an air-tight container."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (No Optionals)"],
+        "calories": [525],
+        "carbohydrates": [64],
+        "sugar": [16.7],
+        "protein": [29.8],
+        "fat": [21.2],
+        "saturated fat": [3.7],
+        "fibre": [10.3],
+        "salt": [1.2]
+    },
+    "source": "https://www.tiktok.com/@mishkamakesfood/video/7401183481746787627",
+    "imageSource": "https://www.shelikesfood.com/peanut-soba-noodle-salad-with-vegetables/",
+    "through": "Alex Persson",
+    "datetime": "2024-09-02 19:59:49.706382"
+}

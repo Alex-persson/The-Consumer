@@ -1,0 +1,48 @@
+{
+    "id": "honey-sriracha-chicken",
+    "name": "Honey Sriracha Chicken Stir-Fry",
+    "image": "images/recipes/honey-sriracha-chicken.jpg",
+    "tags": ["main","chicken","cheap-and-cheerful","lactose-free","meal-prep","high-protein","gym-food","stir-fry"],
+    "author": "Jack Ovens, @chefjackovens",
+    "edited": true,
+    "prepTime": "15m",
+    "cookTime": "20m",
+    "servings": 4,
+    "ingredients": [
+        "1kg boneless skinless chicken thighs",
+        "1 tsp onion powder",
+        "4 garlic cloves, minced",
+        "1 tbsp avocado oil",
+        "4 tbsp honey",
+        "3 tbsp sriracha",
+        "1 tbsp apple cider vinegar",
+        "1 tsp sesame oil (sub olive for health)",
+        "3 cups cous cous",
+        "2 spring onions, thinly sliced",
+        "3 baby bok choy, chopped & washed",
+        "2 pack choy, chopped & washed",
+        "toasted sesame seeds, to garnish"
+    ],
+    "method": [
+        "In a saucepan, add chicken stock, extra virgin olive oil and garlic. Mix well and bring to a boil. Add cous cous, stir to combine and cover with a lid. Steam for 10 minutes until the cous cous has absorbed the stock. Remove lid and fluff the cous cous with a fork to seperate the grains. Mix through the spring onion (scallion) and check seasoning.",
+        "Place a clean pan or wok over medium-high and add in some avocado oil, baby bok choy and pak choy and stir fry for 4-5 minutes or until the bok and pan choy is slightly charred and aldente. Season to taste. Mix well and remove from the heat.",
+        "Dice chicken into bite-size peices. In a bowl, add the chicken thigh, onion powder, minced garlic and seasoning to taste. Mix well to combine.",
+        "In a separate bowl, combine the honey, sriracha sauce, apple cider vinegar and sesame oil. Whisk to combine.",
+        "Place a large pan over medium-high heat. Add in the avocado oil and sear the chicken for 10 minutes. Add in the honey sauce and cook for 2 minutes to reduce the sauce, creating a glaze that will coat the chicken well. Add in the black and white sesame seeds, check seasoning level, mix to combine and remove from the heat. Combine with vegetables and serve over cous cous."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [575],
+        "carbohydrates": [37.5],
+        "sugar": [23.8],
+        "protein": [57],
+        "fat": [26.3],
+        "saturated fat": [3.75],
+        "fibre": [11],
+        "salt": [2.5]
+    },
+    "source": "https://chefjackovens.com/honey-chicken-meal-prep-2/",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-09-02 14:35:35.127481"
+}

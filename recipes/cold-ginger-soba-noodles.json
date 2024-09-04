@@ -1,0 +1,47 @@
+{
+    "id": "cold-ginger-soba-noodles",
+    "name": "Ginger Spring Onion Soba Noodles",
+    "image": "images/recipes/cold-ginger-soba-noodles.jpg",
+    "tags": ["lunch","main","japanese","rapid","healthy","cheap-and-cheerful","lactose-free","made-up","favourite","high-protein"],
+    "author": "Alex Persson",
+    "edited": false,
+    "prepTime": "10m",
+    "cookTime": "15m",
+    "servings": 3,
+    "ingredients": [
+        "75g (half-pack) spring onions, sliced",
+        "50g (2-3 inch) ginger, grated",
+        "2 tbsp olive oil",
+        "2 tbsp soy sauce",
+        "0.5 tsp sherry vinegar",
+        "0.5 tsp salt",
+        "2 bundles (~125g) dry soba noodles",
+        "350g frozen edamame",
+        "2 tbsp toasted sesame seeds",
+        "200g pak choy/carrots/purple cabbage/mushrooms...",
+        "500g ground meat (e.g. pork, beef, ...)"
+    ],
+    "method": [
+        "Cook noodles according to package instructions. Cook frozen edamame and prepare other veggies however you like and keep separate.",
+        "Stir together sliced spring onions, grated ginger, olive oil, soy sauce, sherry vinegar, and salt to make the sauce. Make sure to leave for at least 15 mins before using for flavour to develop.",
+        "Season and fry ground meat in a pan with low cal cooking spray, ensuring you leave it to brown and get crispy on one side.",
+        "At this stage you have all your components, only assemble when you are going to eat.",
+        "To assemble, split ingredients into thirds, add noddles to the bottom of the bowl, then the edamame and other veggies at either side, then the ground meat down the middle, and drizzle all over with a third of the sauce. Toss together.",
+        "Top with toasted sesame seeds and serve."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (Using lean 5% mince pork)"],
+        "calories": [697],
+        "carbohydrates": [57.7],
+        "sugar": [4.7],
+        "protein": [61.4],
+        "fat": [28],
+        "saturated fat": [5.2],
+        "fibre": [9.5],
+        "salt": [0.75]
+    },
+    "source": "",
+    "imageSource": "https://sunbasket.com/recipe/five-spice-pork-and-soba-noodle-bowls-with-edamame",
+    "through": "Alex Persson",
+    "datetime": "2024-09-02 18:22:06.203689"
+}

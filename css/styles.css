@@ -52,25 +52,6 @@ body {
     line-clamp: 5;                  
 }
 
-#tags {
-    margin-bottom: 20px;
-}
-
-#tags button {
-    padding: 10px;
-    margin: 5px;
-    border: none;
-    background-color: #000;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-#tags button:hover {
-    background-color: #555;
-}
-
-
 .four-bracket-container, .two-bracket-container {
     position: relative;
     display: inline-block;

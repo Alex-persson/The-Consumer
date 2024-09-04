@@ -1,0 +1,43 @@
+{
+    "id": "filo-protein-quiche",
+    "name": "Salmon and Spinach Filo Cottage Cheese Quiche",
+    "image": "images/recipes/filo-protein-quiche.jpg",
+    "tags": ["lunch","seafood","high-protein","healthy","favourite","meal-prep","cheap-and-cheerful"],
+    "author": "Emily English, @emthenutritionist",
+    "edited": true,
+    "prepTime": "10m",
+    "cookTime": "1h 15m",
+    "servings": 4,
+    "ingredients": [
+        "7 large eggs",
+        "300g cottage cheese (low fat but not fat free)",
+        "50ml semi-skimmed milk",
+        "150g spinach, wilted and chopped (from frozen works)",
+        "1 pack (100g) chives (can sub dill/tarragon)",
+        "100g smoked salmon, roughly sliced (or use another protein)",
+        "Zest of 1 lemon",
+        "4 sheets of filo pastry (~125g) (or sub tortillas)"
+    ],
+    "method": [
+        "Preheat oven to 160°C fan. Combine milk and cottage cheese in a blender and blitz until smooth. Transfer to a large bowl and add eggs. Whisk to combine.",
+        "Mix in remaining ingredients and stir until evenly distributed. Season well with salt and pepper.",
+        "Layer a pastry sheet over a 20cm deep cake tin. Overlap sheets to make sure all gaps are covered and form a sturdy crust. I do this by placing 4 sheets off centre in each direction, heavily overlapping the top edge of the tin.",
+        "Pour egg mixture into the prepared filo crust, tuck edges back down to meet the mixture with a tight fold. If you want you can add cheese on top at this point.",
+        "Bake in the oven for an hour. Allow to cool for 15 mins before slicing. Enjoy hot or cold!"
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [523],
+        "carbohydrates": [22.6],
+        "sugar": [3.6],
+        "protein": [52.8],
+        "fat": [24],
+        "saturated fat": [7.7],
+        "fibre": [2.5],
+        "salt": [2.3]
+    },
+    "source": "https://www.instagram.com/emthenutritionist/reel/C9iLXjVoxhR/",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-09-02 11:54:19.943536"
+}

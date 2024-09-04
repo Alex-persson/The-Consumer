@@ -53,7 +53,14 @@ async function loadRecipes() {
         "recipes/five-minute-sesame-garlic-tofu.json",
         "recipes/lemon-dijon-crusted-salmon.json",
         "recipes/lactose-free-protein-overnight-oats.json",
-        "recipes/thai-green-rice.json"
+        "recipes/thai-green-rice.json",
+        "recipes/filo-protein-quiche.json",
+        "recipes/honey-sriracha-chicken.json",
+        "recipes/cold-ginger-soba-noodles.json",
+        "recipes/peanut-soba-noodle-salad.json",
+        "recipes/miso-marinated-pork.json",
+        "recipes/healthy-salmon-burger.json",
+        "recipes/simple-baked-cod.json"
     ];
 
     for (const file of recipeFiles) {
@@ -166,6 +173,13 @@ async function displayAllRecipes(page, load_new) {
 
     // Sort recipes by datetime
     const tagFilteredRecipes = filterRecipesByTag(recipes);
+
+    const noResultsNotice = document.querySelector('.no-results-notice');
+    if (tagFilteredRecipes.length === 0) {
+        noResultsNotice.style.display = 'flex';
+    } else {
+        noResultsNotice.style.display = 'none';
+    }
 
     const sortedRecipes = sortRecipesByDate(tagFilteredRecipes);
 
