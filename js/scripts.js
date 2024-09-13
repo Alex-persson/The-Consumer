@@ -28,7 +28,6 @@ async function loadRecipes() {
         "recipes/healthier-teriyaki-hasselback-tofu.json",
         "recipes/thai-green-curry.json",
         "recipes/goma-dare.json",
-        "recipes/chicken-cannellini-bean-pea-salad.json",
         "recipes/caviar-aubergine.json",
         "recipes/coconut-poached-fish.json",
         "recipes/chicken-broccoli-chopped-salad.json",
@@ -60,7 +59,13 @@ async function loadRecipes() {
         "recipes/peanut-soba-noodle-salad.json",
         "recipes/miso-marinated-pork.json",
         "recipes/healthy-salmon-burger.json",
-        "recipes/simple-baked-cod.json"
+        "recipes/simple-baked-cod.json",
+        "recipes/asian-cucumber-salad.json",
+        "recipes/simple-baked-salmon.json",
+        "recipes/sweet-potato-wedges.json",
+        "recipes/kiwi-white-sangria.json",
+        "recipes/lentil-tuna-salad.json",
+        "recipes/homemade-mici.json"
     ];
 
     for (const file of recipeFiles) {

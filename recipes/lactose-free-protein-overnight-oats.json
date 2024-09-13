@@ -9,10 +9,10 @@
     "cookTime": "0m",
     "servings": 1,
     "ingredients": [
-        "1/2 cup (45g) jumbo oats",
-        "1/2 tbsp chia seeds",
-        "160ml unsweetened soy milk",
-        "1 scoop protein powder (casein best, flavour of your choice)",
+        "75g jumbo oats",
+        "1 tbsp chia seeds",
+        "225ml unsweetened soy milk",
+        "1 scoop collagen/vegan protein powder",
         "1 tsp cacao powder or 1 tsp matcha powder",
         "Flaked almonds, to garnish",
         "Frozen fruit to top, optional"
@@ -25,14 +25,14 @@
     ],
     "nutrition": {
         "columns": ["Per Serving (No Toppings)"],
-        "calories": [466],
-        "carbohydrates": [16.5],
-        "sugar": [2],
-        "protein": ["protein powder + 10"],
-        "fat": [14.2],
-        "saturated fat": [2.8],
-        "fibre": [8.9],
-        "salt": [0.14]
+        "calories": [589],
+        "carbohydrates": [70.6],
+        "sugar": [10.8],
+        "protein": [37.8],
+        "fat": [16.7],
+        "saturated fat": [2.4],
+        "fibre": [12.4],
+        "salt": [0.21]
     },
     "source": "",
     "imageSource": "https://thefoodiephysician.com/high-protein-overnight-oats/",

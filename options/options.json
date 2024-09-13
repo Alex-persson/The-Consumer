@@ -6,7 +6,7 @@
         "Time": ["rapid", "meal-prep"],
         "Health": ["healthy", "high-protein", "keto", "gym-food", "cheat-meal", "lactose-free"],
         "Season": ["summer","autumn","spring","winter", "holiday"],
-        "Type": ["salad", "soup", "sandwich", "pasta", "stir-fry"],
+        "Type": ["salad", "soup", "sandwich", "pasta", "stir-fry","bbq"],
         "Cuisine": ["english", "japanese", "french", "american", "swedish", "italian", "thai", "indian", "vietnamese", "mediterranean", "middle-eastern", "chinese", "latin-american"],
         "Special": ["made-up", "favourite"]
     },

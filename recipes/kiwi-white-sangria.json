@@ -1,0 +1,41 @@
+{
+    "id": "kiwi-white-sangria",
+    "name": "White Sangria with Kiwi and Lemon Grass",
+    "image": "images/recipes/kiwi-white-sangria.jpg",
+    "tags": ["drink","summer","fancy-stuff"],
+    "author": "Elaine Esbenshade, Ottolenghi",
+    "edited": false,
+    "prepTime": "5m",
+    "cookTime": "45m",
+    "servings": 4,
+    "ingredients": [
+        "2 (30g) lemongrass stalks",
+        "1 tsp black peppercorns",
+        "1 lemon, 6 thick strips peeled, and fruit sliced into rounds",
+        "100ml elderflower cordial",
+        "2 tbsp caster sugar",
+        "3 tbsp cointreau",
+        "750ml dry white wine",
+        "1 kiwi, sliced into thin rounds"
+    ],
+    "method": [
+        "In a small saucepan, add the lemon grass, peppercorns, lemon peel, cordianal and sugar along with 100ml of the wine and whisk with a fork to incorporate. Place over a medium high heat and bring to a boil. Remove from the heat and leave to cool completely in the pan, around 40 minutes. During this time the lemongrass will infuse into the syrup.",
+        "Pour the syrup through a fine mesh sieve and into a jar, for which you have a lid. Add the Cointreau and seal. At this point you have your ‘sangria syrup’ which you can either take to the beach and add to your wine, or you can enjoy immediately by doing the following.",
+        "In a large glass jug, add the syrup along with the remaining 650ml of white wine, the kiwi and lemon rounds and top up with lots of ice. Best enjoyed very cold."
+    ],
+    "nutrition": {
+        "columns": [],
+        "calories": [],
+        "carbohydrates": [],
+        "sugar": [],
+        "protein": [],
+        "fat": [],
+        "saturated fat": [],
+        "fibre": [],
+        "salt": []
+    },
+    "source": "https://ottolenghi.co.uk/pages/recipes/white-sangria-kiwi-lemon-grass",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-09-13 15:19:40.721786"
+}

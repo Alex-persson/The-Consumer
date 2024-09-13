@@ -1,0 +1,43 @@
+{
+    "id": "sweet-potato-wedges",
+    "name": "Baked Sweet Potato Wedges",
+    "image": "images/recipes/sweet-potato-wedges.jpg",
+    "tags": ["side","veggie","lactose-free","cheap-and-cheerful","meal-prep","favourite"],
+    "author": "Chris, Something About Sandwiches",
+    "edited": true,
+    "prepTime": "40m",
+    "cookTime": "40m",
+    "servings": 4,
+    "ingredients": [
+        "1kg small sweet potatoes, scrubbed if needed",
+        "3 tbsp olive oil",
+        "1 tbsp cornstarch",
+        "1 tsp paprika",
+        "1 tsp onion powder",
+        "1 tsp garlic powder",
+        "Salt & pepper"
+    ],
+    "method": [
+        "Divide potatoes into wedges (around 1/6th each). Skinnier wedges will crispy better.",
+        "Place wedges in cold water and soak for at least 30 mins, but the longer the better",
+        "Preheat oven to 200C fan.",
+        "Drain and thoroughly dry the wedges (important or they will steam in the oven!)",
+        "Place wedges in a large ziplock bag with cornstarch and toss to coat. Shake off excess. Add olive oil and seasonings to the bag and mix again to coat.",
+        "Space wedges out on a large baking tray on baking paper. Roast in oven for around 40 mins until crispy on the outside. Remove and toss with salt and pepper."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [298],
+        "carbohydrates": [48.8],
+        "sugar": [9.6],
+        "protein": [3.8],
+        "fat": [10.3],
+        "saturated fat": [1.4],
+        "fibre": [7.2],
+        "salt": [0.2]
+    },
+    "source": "https://somethingaboutsandwiches.com/crispy-baked-sweet-potato-wedges/",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-09-13 12:05:43.589772"
+}

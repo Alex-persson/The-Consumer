@@ -1,0 +1,44 @@
+{
+    "id": "simple-baked-salmon",
+    "name": "Honey Paprika Baked Salmon",
+    "image": "images/recipes/simple-baked-salmon.jpg",
+    "tags": ["main","seafood","healthy","high-protein","rapid","favourite","made-up","meal-prep","lactose-free"],
+    "author": "Alex Persson",
+    "edited": false,
+    "prepTime": "5m",
+    "cookTime": "15m",
+    "servings": 2,
+    "ingredients": [
+        "2 large (~2x200g) salmon fillets",
+        "1.5 tsp paprika",
+        "1 tsp salt and pepper",
+        "1 tbsp olive oil",
+        "1 tbsp honey",
+        "Large pinch garlic powder",
+        "1 tsp worcestershire sauce",
+        "1/2 lemon, to serve"
+    ],
+    "method": [
+        "Preheat the oven to 160°C fan.",
+        "Arrange salmon fillets skin-side down on an oven tray",
+        "Mix together paprika, honey, olive oil, garlic powder, worcestershite sauce, and salt & pepper in a bowl.",
+        "Score the top of the salmon fillets (cook more evenly) and the coat in honey paprika mixture.",
+        "Put salmon in the oven and cook for 15 mins (or 4 mins per thickness/until cooked through).",
+        "Leave to rest under foil for 5 mins."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [1031],
+        "carbohydrates": [60],
+        "sugar": [8],
+        "protein": [64],
+        "fat": [53],
+        "saturated fat": [17],
+        "fibre": [9],
+        "salt": [0.31]
+    },
+    "source": "",
+    "imageSource": "https://inquiringchef.com/honey-paprika-broiled-salmon/",
+    "through": "Alex Persson",
+    "datetime": "2024-09-05 15:25:55.808889"
+}

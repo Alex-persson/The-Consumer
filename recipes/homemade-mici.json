@@ -1,0 +1,50 @@
+{
+    "id": "homemade-mici",
+    "name": "Mici (Romanian Garlicky Open Sausages)",
+    "image": "images/recipes/homemade-mici.jpg",
+    "tags": ["main","beef","pork","bbq","cheap-and-cheerful","meal-prep","high-protein","lactose-free"],
+    "author": "Ramona Sebastian, Ramona's Cuisine",
+    "edited": false,
+    "prepTime": "2h 20m",
+    "cookTime": "10m",
+    "servings": 8,
+    "ingredients": [
+        "500g lean beef mince",
+        "500g lean pork mince",
+        "180ml beef stock",
+        "50ml beer",
+        "1 tsp bicarbonate of soda",
+        "1 tsp salt",
+        "3 garlic cloves, minced",
+        "1 tsp dry thyme",
+        "1 pinch nutmeg",
+        "1/2 tsp ground coriander",
+        "1/2 tsp ground cumin",
+        "1/2 tsp black pepper",
+        "1/2 tsp cayenne pepper/chilli flakes"
+    ],
+    "method": [
+        "Place the meat into a bowl, you can give it another whizz into the food processor for a double grinding but don’t worry if you don’t fancy doing this. There is another solution - extra mixing/kneading.",
+        "In a larger mug, I mix the beef stock with beer, soda bicarbonate, spices, salt pepper and give it a good stir until the salt has dissolved entirely.",
+        "Add this liquid mixture to the meat and mix really well until the mixture becomes almost a paste. And this is your double grinding technique",
+        "You can now work with a dash of oil or water to form the sausages into their shapes (16 pieces). A little touch of oil takes you a long way so just grease your palms with a tiny dash of oil or, use a bit of water. I always use oil. It helps with preventing them from sticking. Place all on a plate or a little tray, something that can easily be placed in the fridge.",
+        "Transfer the open sausages to the fridge to rest for 2 to 4 hours but you can leave them overnight too, it’s absolutely okay.",
+        "Place them onto a hot, hot grill or in a hot pan and cook them on each side ( x 2) for no longer than 4 min.",
+        "Mici must be served with mustard and a super cold glass of beer."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (2 sausages)"],
+        "calories": [332],
+        "carbohydrates": [2],
+        "sugar": [2],
+        "protein": [22],
+        "fat": [26],
+        "saturated fat": [10],
+        "fibre": [2],
+        "salt": [0.56]
+    },
+    "source": "https://www.ramonascuisine.com/homemade-mici-the-famous-romanian-garlicky-meat-sausages/",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-09-13 16:15:29.938785"
+}

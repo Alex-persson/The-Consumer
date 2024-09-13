@@ -1,0 +1,42 @@
+{
+    "id": "lentil-tuna-salad",
+    "name": "Lentil & Tuna Salad",
+    "image": "images/recipes/lentil-tuna-salad.jpg",
+    "tags": ["main","seafood","salad","rapid","healthy","high-protein","cheap-and-cheerful","favourite","keto","lactose-free","gym-food"],
+    "author": "Nadine Brown, BBC Goodfood",
+    "edited": false,
+    "prepTime": "15m",
+    "cookTime": "0m",
+    "servings": "3-4",
+    "ingredients": [
+        "2 tbsp sherry vinegar",
+        "1 tsp dijon mustard",
+        "2 garlic cloves, grated",
+        "3 tbsp olive oil",
+        "2x250g pouches ready cooked puy lentils",
+        "2x160g canned tuna",
+        "160g cherry tomatoes, halved",
+        "2 ready roasted peppers, chopped",
+        "handful of parsley, chopped",
+        "bunch of chives, chopped"
+    ],
+    "method": [
+        "Whisk the vinegar, mustard and garlic together in a small bowl. Slowly drizzle in the oil, whisking as you go, until emulsified, then season to taste.",
+        "Add the lentils, tuna, tomatoes, peppers and herbs to a large bowl and toss together. Pour over the dressing and toss again. Divide between four bowls and garnish with the remaining chives."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (As 4 Servings)"],
+        "calories": [374],
+        "carbohydrates": [26],
+        "sugar": [3],
+        "protein": [28],
+        "fat": [15],
+        "saturated fat": [2],
+        "fibre": [9],
+        "salt": [0.7]
+    },
+    "source": "https://www.bbcgoodfood.com/recipes/lentil-tuna-salad",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-09-13 15:34:09.321801"
+}

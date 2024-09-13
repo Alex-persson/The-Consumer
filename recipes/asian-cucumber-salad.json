@@ -1,0 +1,46 @@
+{
+    "id": "asian-cucumber-salad",
+    "name": "Asian Cucumber Salad",
+    "image": "images/recipes/asian-cucumber-salad.jpg",
+    "tags": ["side","veggie","rapid","cheap-and-cheerful","lactose-free","salad"],
+    "author": "Sylvia Fountaine, Feasting at Home",
+    "edited": true,
+    "prepTime": "15m",
+    "cookTime": "0m",
+    "servings": 4,
+    "ingredients": [
+        "1 whole cucumber",
+        "1/2 tsp salt",
+        "4-5 spring onions, finely sliced",
+        "1-2 inch raw ginger, grated (sub. 1 tsp ground ginger)",
+        "1 garlic cloves, minced",
+        "3 tbsp rice vinegar",
+        "1 tbsp soy sauce",
+        "1 tsp toasted sesame oil (sub olive for health)",
+        "1 tsp honey",
+        "1 tsp sriracha",
+        "1-2 tbsp toasted sesame seeds",
+        "4-5 mini peppers, optional"
+    ],
+    "method": [
+        "Slice the cucumber (and mini peppers if using) thinly. Place in a bowl and toss with salt to help them release water. Let this stand whilst you prepare other ingredients",
+        "In a large bowl, add the remaining ingredients and mix to combine. Drain the cucumber (and peppers) and add to the bowl with the sauce and toss.",
+        "Season to taste, adding more sriracha if you like.",
+        "This will keep up to 3 days in the fridge but it will start to pickle a bit (not a bad thing!)"
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (No Peppers)"],
+        "calories": [89],
+        "carbohydrates": [11.5],
+        "sugar": [6.4],
+        "protein": [2],
+        "fat": [4.8],
+        "saturated fat": [0.7],
+        "fibre": [1.4],
+        "salt": [0.41]
+    },
+    "source": "https://www.feastingathome.com/asian-cucumber-salad/#tasty-recipes-44685-jump-target",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-09-05 06:52:39.536403"
+}
