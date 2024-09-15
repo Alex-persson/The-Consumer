@@ -1,0 +1,40 @@
+{
+    "id": "chimichurri",
+    "name": "Chimichurri Sauce",
+    "image": "images/recipes/chimichurri.jpg",
+    "tags": ["sauce","lactose-free","latin-american","veggie","keto"],
+    "author": "Love & Lemons",
+    "edited": false,
+    "prepTime": "5m",
+    "cookTime": "0m",
+    "servings": "4-6",
+    "ingredients": [
+        "5 tbsp olive oil",
+        "2 tbsp white wine vinegar",
+        "2 garlic cloves, minced",
+        "1/2 tsp sea salt",
+        "1/2 tsp dried oregano",
+        "1/2 tsp red pepper flakes",
+        "1/4 tsp smoked paprika",
+        "1/2 cup finely chopped fresh parsley"
+    ],
+    "method": [
+        "In a small bowl, whisk together the olive oil, vinegar, garlic, salt, oregano, red pepper flakes, and smoked paprika. Stir in the parsley. Alternatively, you could combine the ingredients in a mortar and pestle or with a few pulses in a food processor.",
+        "Season to taste."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (As 6 Servings)"],
+        "calories": [89],
+        "carbohydrates": [11.5],
+        "sugar": [6.4],
+        "protein": [2],
+        "fat": [4.8],
+        "saturated fat": [0.7],
+        "fibre": [1.4],
+        "salt": [0.41]
+    },
+    "source": "https://www.loveandlemons.com/chimichurri-sauce/#wprm-recipe-container-44654",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-09-13 16:59:51.262602"
+}

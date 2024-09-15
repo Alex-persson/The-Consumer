@@ -7,7 +7,7 @@
         "Health": ["healthy", "high-protein", "keto", "gym-food", "cheat-meal", "lactose-free"],
         "Season": ["summer","autumn","spring","winter", "holiday"],
         "Type": ["salad", "soup", "sandwich", "pasta", "stir-fry","bbq"],
-        "Cuisine": ["english", "japanese", "french", "american", "swedish", "italian", "thai", "indian", "vietnamese", "mediterranean", "middle-eastern", "chinese", "latin-american"],
+        "Cuisine": ["english", "japanese", "french", "american", "italian", "thai", "indian", "vietnamese", "middle-eastern", "chinese", "latin-american", "korean"],
         "Special": ["made-up", "favourite"]
     },
     "tag-formats": {

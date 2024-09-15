@@ -1,0 +1,48 @@
+{
+    "id": "bulgogi",
+    "name": "Bulgogi (Korean BBQ Beef)",
+    "image": "images/recipes/bulgogi.jpg",
+    "tags": ["main","beef","korean","stir-fry","meal-prep","high-protein","lactose-free"],
+    "author": "Kaitlin, The Woks of Life",
+    "edited": true,
+    "prepTime": "4h",
+    "cookTime": "10m",
+    "servings": 4,
+    "ingredients": [
+        "800g rib eye (or substitute minced beef to save $$$ and use marinade as stir-fry sauce)",
+        "2 onions",
+        "2 spring onions",
+        "1 tbsp olive oil",
+        "1 tbsp toasted sesame seeds",
+        "6 tbsp soy sauce",
+        "2 tbsp honey",
+        "2 tbsp mirin",
+        "1 red apple or pear, grated",
+        "1 tbsp gochujang",
+        "5 garlic cloves, minced",
+        "Pinch of black pepper",
+        "2 green peppers, optional"
+    ],
+    "method": [
+        "If using a steak, freeze for 1 hour then slice thinly (5mm).",
+        "In a mixer, add 1 onion, ginger, black pepper, garlic, soy sauce, honey, gochujang, mirin, and grated apple/pear. Blend until smooth, this is your marinade (or stir-fry sauce if using mince).",
+        "Add sliced steak to a bowl with marinade, mix well using a spoon (contains chili paste!). Thinly slice remaining onion and green pepper if using and scatter over top in bowl. Cover and refridgerate for at least 4 hours. Skip this step if using mince.",
+        "Heat 1 tbsp high smoke point oil in a pan over medium-high heat. Fry beef in batches so it is not overcrowded in the pan. Cook for 1-2 minutes on each side. If using mince, then first fry remaining onion, then brown minced beef, then stir through sauce and cook for 2-3 further minutes.",
+        "Serve with sliced spring onion and toasted sesame seeds scattered over the top." 
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [436],
+        "carbohydrates": [18],
+        "sugar": [13],
+        "protein": [47],
+        "fat": [17],
+        "saturated fat": [4],
+        "fibre": [1],
+        "salt": [1.6]
+    },
+    "source": "https://thewoksoflife.com/bulgogi-bowls/#recipe",
+    "imageSource": "",
+    "through": "Alex Persson",
+    "datetime": "2024-09-15 08:20:32.167208"
+}
