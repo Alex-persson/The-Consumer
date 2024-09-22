@@ -107,6 +107,7 @@ async function displayWordTagSearch() {
 
     document.querySelectorAll('.tag-button').forEach(button => {
         button.addEventListener('click', function() {
+            currentPage=1;
             const tag = this.getAttribute('data-tag');
     
             if (activeTags.includes(tag)) {

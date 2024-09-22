@@ -153,14 +153,17 @@ main {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    padding: 15px 10px 0px 10px;
+    padding: 15px 5px 0px 5px;
     background-color: #202020; /* Background color for the header */
     margin-bottom: 15px;
 }
 
 .tag-list {
-
+    background-color: transparent;
+    max-width: 1250px;
+    width: 100%;
 }
+
 
 .tag-row {
     margin-bottom: 15px;
