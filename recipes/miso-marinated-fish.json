@@ -1,0 +1,37 @@
+{
+    "id": "miso-marinated-fish",
+    "name": "Miso Marinated Fish",
+    "image": "images/recipes/miso-marinated-fish.jpg",
+    "tags": ["main","seafood","healthy","high-protein","lactose-free","japanese","favourite"],
+    "author": "Good Food Team, BBC Goodfood",
+    "edited": false,
+    "prepTime": "20m",
+    "cookTime": "15m",
+    "servings": 4,
+    "ingredients": [
+        "3 tbsp white miso",
+        "2 tbsp mirin",
+        "1 tbsp honey",
+        "1 tbsp sake",
+        "4x100g salmon fillets/or other fish (cod and halibut work well)"
+    ],
+    "method": [
+        "Stir together the miso, mirin, sugar and sake, if using. Place the salmon fillets on a plate or in a medium food bag and cover with the miso marinade. Leave in the fridge for at least 30 mins or, better still, overnight.",
+        "Heat oven to 200C/fan 180C/gas 6. Lightly oil a baking tray. Use kitchen paper to wipe off the marinade (don’t be tempted to wash it off as you will lose some of the flavour). Place the fillets on the baking tray, skin side down. Cook in the oven for 15 mins until the fish flakes easily and is cooked through."
+    ],
+    "nutrition": {
+        "columns": ["Per Serving"],
+        "calories": [239],
+        "carbohydrates": [9],
+        "sugar": [5],
+        "protein": [22],
+        "fat": [13],
+        "saturated fat": [2],
+        "fibre": [1],
+        "salt": [0.82]
+    },
+    "source": "",
+    "imageSource": "https://www.bbcgoodfood.com/recipes/miso-marinated-salmon",
+    "through": "Alex Persson",
+    "datetime": "2024-09-20 17:55:33.291208"
+}

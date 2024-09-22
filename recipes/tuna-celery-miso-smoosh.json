@@ -1,0 +1,39 @@
+{
+    "id": "tuna-celery-miso-smoosh",
+    "name": "Tuna Celery Miso Smoosh",
+    "image": "images/recipes/tuna-celery-miso-smoosh.jpg",
+    "tags": ["lunch","seafood","high-protein","healthy","cheap-and-cheerful","rapid","meal-prep","keto","lactose-free"],
+    "author": "Ben Lebus, Mob",
+    "edited": false,
+    "prepTime": "2h",
+    "cookTime": "10m",
+    "servings": 2,
+    "ingredients": [
+        "2 cans tuna in spring water, drained",
+        "4 sticks of celery, trimmed and diced",
+        "1 tsp toasted white sesame seeds",
+        "2 tbsp light mayo",
+        "1 large tbsp miso (any kind)",
+        "1/2 lemon, juiced",
+        "2 spring onions, thinly sliced, to garnish"
+    ],
+    "method": [
+        "Add ingredients to a bowl and mix together.",
+        "Serve with something like rye bread, or in a pita. Keep sealed in fridge for up to 4 days."  
+    ],
+    "nutrition": {
+        "columns": ["Per Serving (No Bread)"],
+        "calories": [314],
+        "carbohydrates": [9],
+        "sugar": [3],
+        "protein": [43.9],
+        "fat": [11],
+        "saturated fat": [1.8],
+        "fibre": [1.9],
+        "salt": [0.51]
+    },
+    "source": "",
+    "imageSource": "https://www.mob.co.uk/recipes/tuna-celery-miso-smoosh",
+    "through": "Alex Persson",
+    "datetime": "2024-09-20 17:46:06.933765"
+}

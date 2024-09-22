@@ -69,7 +69,9 @@ async function loadRecipes() {
         "recipes/chimichurri.json",
         "recipes/healthy-breaded-chicken.json",
         "recipes/cumin-lamb.json",
-        "recipes/bulgogi.json"
+        "recipes/bulgogi.json",
+        "recipes/tuna-celery-miso-smoosh.json",
+        "recipes/miso-marinated-fish.json"
     ];
 
     for (const file of recipeFiles) {
